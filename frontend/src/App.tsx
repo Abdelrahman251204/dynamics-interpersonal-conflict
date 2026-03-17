@@ -10,6 +10,9 @@ const SurveyPage = React.lazy(() => import('./pages/SurveyPage'));
 const MemberDashboard = React.lazy(() => import('./pages/MemberDashboard'));
 const LeaderDashboard = React.lazy(() => import('./pages/LeaderDashboard'));
 const AdminDashboard = React.lazy(() => import('./pages/AdminDashboard'));
+const PendingApproval = React.lazy(() => import('./pages/PendingApproval'));
+const Rejected = React.lazy(() => import('./pages/Rejected'));
+const Suspended = React.lazy(() => import('./pages/Suspended'));
 
 // Layout Component
 const Layout = ({ children }: { children: React.ReactNode }) => {
@@ -19,8 +22,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <div className="min-h-screen">
       <nav>
         <div className="nav-container">
-          <div className="nav-logo">
-            <Shield size={24} />
+          <div className="nav-logo" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <img src="/dynamics-interpersonal-conflict/logo.png" alt="DIME Logo" style={{ height: '32px', width: 'auto', borderRadius: '4px' }} />
             DIME Dynamics
           </div>
           {userData && (
@@ -46,17 +49,37 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
+const StatusRoute = ({ children, allowedStatuses }: { children: React.ReactNode, allowedStatuses: string[] }) => {
+  const { user, userData, isLoading } = useAuth();
+  if (isLoading) return <div style={{ display: 'flex', justifyContent: 'center', marginTop: '4rem' }}>Loading DIME System...</div>;
+  if (!user) return <Navigate to="/login" replace />;
+  if (!userData) return <div style={{ display: 'flex', justifyContent: 'center', marginTop: '4rem' }}>Loading Profile...</div>;
+  
+  if (!allowedStatuses.includes(userData.status)) {
+     if (userData.status === 'pending') return <Navigate to="/pending" replace />;
+     if (userData.status === 'rejected') return <Navigate to="/rejected" replace />;
+     if (userData.status === 'suspended') return <Navigate to="/suspended" replace />;
+     return <Navigate to="/dashboard" replace />;
+  }
+  return <Layout>{children}</Layout>;
+};
+
 // Protected Route Wrapper
 const ProtectedRoute = ({ children, allowedRoles }: { children: React.ReactNode, allowedRoles?: string[] }) => {
   const { user, userData, isLoading } = useAuth();
 
   if (isLoading) return <div style={{ display: 'flex', justifyContent: 'center', marginTop: '4rem' }}>Loading DIME System...</div>;
   if (!user) return <Navigate to="/login" replace />;
+  if (!userData) return <div style={{ display: 'flex', justifyContent: 'center', marginTop: '4rem' }}>Loading Profile...</div>;
   
-  if (allowedRoles && userData && !allowedRoles.includes(userData.role)) {
+  if (userData.status === 'pending') return <Navigate to="/pending" replace />;
+  if (userData.status === 'rejected') return <Navigate to="/rejected" replace />;
+  if (userData.status === 'suspended') return <Navigate to="/suspended" replace />;
+
+  if (allowedRoles && !allowedRoles.includes(userData.role)) {
     // Redirect to their appropriate dashboard if unauthorized
-    if (userData.role === 'admin' || userData.role === 'hr_analyst') return <Navigate to="/admin" replace />;
-    if (userData.role === 'team_leader') return <Navigate to="/leader" replace />;
+    if (userData.role === 'system_admin' || userData.role === 'hr_analyst') return <Navigate to="/admin" replace />;
+    if (userData.role === 'leader') return <Navigate to="/leader" replace />;
     return <Navigate to="/dashboard" replace />;
   }
 
@@ -65,26 +88,42 @@ const ProtectedRoute = ({ children, allowedRoles }: { children: React.ReactNode,
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/dynamics-interpersonal-conflict">
       <React.Suspense fallback={<div style={{ textAlign: 'center', padding: '4rem' }}>Loading application...</div>}>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           
+          <Route path="/pending" element={
+            <StatusRoute allowedStatuses={['pending']}>
+              <PendingApproval />
+            </StatusRoute>
+          } />
+          <Route path="/rejected" element={
+            <StatusRoute allowedStatuses={['rejected']}>
+              <Rejected />
+            </StatusRoute>
+          } />
+          <Route path="/suspended" element={
+            <StatusRoute allowedStatuses={['suspended']}>
+              <Suspended />
+            </StatusRoute>
+          } />
+
           <Route path="/dashboard" element={
-            <ProtectedRoute allowedRoles={['team_member', 'team_leader', 'admin']}>
+            <ProtectedRoute allowedRoles={['member', 'leader', 'system_admin']}>
               <MemberDashboard />
             </ProtectedRoute>
           } />
           
           <Route path="/leader" element={
-            <ProtectedRoute allowedRoles={['team_leader', 'admin']}>
+            <ProtectedRoute allowedRoles={['leader', 'system_admin']}>
               <LeaderDashboard />
             </ProtectedRoute>
           } />
           
           <Route path="/admin" element={
-            <ProtectedRoute allowedRoles={['admin', 'hr_analyst']}>
+            <ProtectedRoute allowedRoles={['system_admin', 'hr_analyst']}>
               <AdminDashboard />
             </ProtectedRoute>
           } />

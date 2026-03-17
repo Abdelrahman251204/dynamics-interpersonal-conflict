@@ -30,17 +30,6 @@ export default function Register() {
       return;
     }
 
-    // Insert to public.users (will be handled by triggers soon or manually now)
-    if (authData.user) {
-      const { error: profileError } = await supabase.from('users').insert({
-        id: authData.user.id,
-        email,
-        full_name: fullName,
-        role: 'team_member', // Default role
-      });
-      if (profileError) console.error('Failed to create user profile:', profileError);
-    }
-    
     setSuccess('Registration successful! Please sign in.');
     setLoading(false);
   };
@@ -49,7 +38,7 @@ export default function Register() {
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
       <div className="glass-panel" style={{ width: '100%', maxWidth: '400px', padding: '2.5rem' }}>
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-          <Shield size={48} color="var(--primary)" style={{ margin: '0 auto 1rem' }} />
+          <img src="/dynamics-interpersonal-conflict/logo.png" alt="DIME Logo" style={{ height: '64px', width: 'auto', margin: '0 auto 1rem', borderRadius: '8px' }} />
           <h1 style={{ fontSize: '1.5rem', fontWeight: 600 }}>Join DIME</h1>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem', marginTop: '0.5rem' }}>
             Create your account

@@ -2,11 +2,13 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 import type { User } from '@supabase/supabase-js';
 import { supabase } from '../lib/supabase';
 
-type UserRole = 'admin' | 'team_leader' | 'team_member' | 'hr_analyst';
+type UserRole = 'system_admin' | 'organization_admin' | 'leader' | 'member' | 'hr_analyst';
+type UserStatus = 'pending' | 'approved' | 'rejected' | 'suspended';
 
 interface UserData {
   id: string;
   role: UserRole;
+  status: UserStatus;
   full_name: string;
 }
 
@@ -56,7 +58,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     try {
       const { data, error } = await supabase
         .from('users')
-        .select('id, role, full_name')
+        .select('id, role, status, full_name')
         .eq('id', userId)
         .single();
         

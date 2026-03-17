@@ -31,7 +31,7 @@ export default function LeaderDashboard() {
         .from('team_members')
         .select('team_id')
         .eq('user_id', user?.id)
-        .eq('role', 'team_leader')
+        .eq('role', 'leader')
         .maybeSingle();
 
       if (memberData?.team_id) {

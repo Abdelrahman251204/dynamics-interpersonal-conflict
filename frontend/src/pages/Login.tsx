@@ -26,7 +26,7 @@ export default function Login() {
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
       <div className="glass-panel" style={{ width: '100%', maxWidth: '400px', padding: '2.5rem' }}>
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-          <Shield size={48} color="var(--primary)" style={{ margin: '0 auto 1rem' }} />
+          <img src="/dynamics-interpersonal-conflict/logo.png" alt="DIME Logo" style={{ height: '64px', width: 'auto', margin: '0 auto 1rem', borderRadius: '8px' }} />
           <h1 style={{ fontSize: '1.5rem', fontWeight: 600 }}>DIME System Login</h1>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem', marginTop: '0.5rem' }}>
             Team Dynamics & Psychological Monitoring
