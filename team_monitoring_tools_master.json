@@ -1,0 +1,2234 @@
+{
+  "meta": {
+    "title_en": "Team Monitoring Psychometric Tools Master File",
+    "title_ar": "الملف المرجعي الشامل لأدوات القياس النفسي والاجتماعي لمراقبة الفرق",
+    "source_document": "/mnt/data/Psychometric Architectures for Digital Team Monitoring_ A Comprehensive Synthesis of Validated Instruments and Implementation Strategies.docx",
+    "generated_from_uploaded_literature_only": true,
+    "language_primary": "Arabic (Egyptian-friendly)",
+    "important_note_ar": "حيثما لم يكن النص الرسمي الكامل للعناصر موجودًا في الملف المرفوع، تم توثيق كل ما هو متاح بوضوح، مع تمييز البنود الناقصة بدل اختلاق نصوص غير موثقة. بعض الأدوات قد تتطلب مراجعة حقوق الاستخدام أو النسخة الرسمية قبل إدراجها في منتج تجاري."
+  },
+  "tools": [
+    {
+      "tool_id": "ICS_FAMILY",
+      "name_en": "Intragroup Conflict Scale Family",
+      "name_ar": "عيلة مقياس الصراع داخل الفريق",
+      "variants": [
+        "ICS-14",
+        "ICS-6",
+        "Operational item bank shown in source appendix as 8 items"
+      ],
+      "category": "Interpersonal / Conflict",
+      "target_level": "Team and dyadic interpretation",
+      "source_coverage_status": "partial_fullish",
+      "source_coverage_note": "The literature review explicitly discusses ICS-14 and ICS-6, and provides an 8-item operational item bank in the appendix. Full 14-item wording is not fully reproduced in the uploaded file.",
+      "purpose_ar": "قياس نوعين من الصراع داخل الفريق: صراع علاقاتي/شخصي، وصراع متعلق بالمهمة أو محتوى الشغل.",
+      "evidence_summary_ar": "التقرير يذكر إن ICS-14 له تحقق متعدد المستويات، وإن النسخة القصيرة 6 أسئلة مناسبة للمتابعة المتكررة وتنبأت بالثقة داخل الفرق.",
+      "item_count_note": "14 in full version; 6 in short form; 8 appendix items available verbatim in source",
+      "reliability": "ICS-14: α≈0.62–0.95; ICS short form: α≈0.70–0.85",
+      "cadence_ar": "نبض أسبوعي أو كل أسبوعين للنسخة القصيرة، وتشخيص أعمق عند ارتفاع المخاطر.",
+      "response_scale_ar": "ليكرت 5 نقاط: 1 = مفيش/أبدًا، 5 = كتير جدًا/بشكل متكرر جدًا.",
+      "scoring_ar": "احسب متوسط أو مجموع بنود صراع العلاقات وحدها، ومتوسط أو مجموع بنود صراع المهمة وحدها. يفضل الاحتفاظ بالدرجتين منفصلتين بدل دمجهما في درجة واحدة.",
+      "interpretation_ar": "ارتفاع صراع العلاقات علامة سلبية قوية ترتبط بانخفاض الثقة وصلاحية الفريق للاستمرار. صراع المهمة بدرجة معتدلة قد يكون مفيدًا في الأعمال غير الروتينية، لكن الارتفاع الشديد أو اقترانه بصراع العلاقات يحتاج تدخل.",
+      "thresholds_ar": "لا توجد حدود تشخيصية عالمية ثابتة في الملف المرفوع؛ الأفضل تفسير الدرجة مقارنة بخط أساس الفريق، واتجاه التغير، والتوزيع الداخلي بين الفرق.",
+      "app_use_ar": "أداة أساسية لاكتشاف مناطق الاحتكاك، وبناء خريطة علاقات الصراع، وتشغيل تنبيهات مبكرة عند ارتفاع صراع العلاقات.",
+      "leader_visibility_ar": "يعرض للقائد اتجاهات الفريق وخرائط الصراع المجمعة، ولا يفضل كشف إجابات فردية خام تحدد من قال ماذا.",
+      "member_visibility_ar": "يمكن للعضو رؤية إحساسه العام أو ملخص شخصي، لكن ليس خريطة الصراع الكاملة بين الأفراد.",
+      "admin_visibility_ar": "رؤية كاملة على مستوى النظام والتنظيمات مع احترام سياسات الخصوصية.",
+      "licensing_note_ar": "اعتمد على النص الموجود في الملف المرفوع. لو أردت استخدام النص الرسمي الكامل لكل نسخة في منتج تجاري، راجع حقوق الاستخدام والنسخة المعتمدة.",
+      "domains": [
+        {
+          "domain_id": "RC",
+          "name_en": "Relationship Conflict",
+          "name_ar": "صراع العلاقات / الصراع الشخصي",
+          "definition_ar": "توتر شخصي، احتكاك، أو عدم توافق عاطفي بين أعضاء الفريق."
+        },
+        {
+          "domain_id": "TC",
+          "name_en": "Task Conflict",
+          "name_ar": "صراع المهمة",
+          "definition_ar": "اختلافات في الآراء والأفكار وطرق تنفيذ الشغل ومحتواه."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "rc1",
+          "domain_en": "Relationship Conflict",
+          "domain_ar": "صراع العلاقات",
+          "item_en": "How much friction is there among members in your work unit?",
+          "item_ar": "قد إيه فيه احتكاك بين أعضاء وحدة العمل / الفريق؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "rc2",
+          "domain_en": "Relationship Conflict",
+          "domain_ar": "صراع العلاقات",
+          "item_en": "How much are personality conflicts evident in your work unit?",
+          "item_ar": "قد إيه الخلافات الشخصية باينة بين أفراد الفريق؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "rc3",
+          "domain_en": "Relationship Conflict",
+          "domain_ar": "صراع العلاقات",
+          "item_en": "How much tension is there among members in your work unit?",
+          "item_ar": "قد إيه فيه توتر بين أعضاء الفريق؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "rc4",
+          "domain_en": "Relationship Conflict",
+          "domain_ar": "صراع العلاقات",
+          "item_en": "How much emotional conflict is there among members in your work unit?",
+          "item_ar": "قد إيه فيه صراع أو احتقان عاطفي بين أعضاء الفريق؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "tc5",
+          "domain_en": "Task Conflict",
+          "domain_ar": "صراع المهمة",
+          "item_en": "How often do people in your work unit disagree about opinions regarding the work being done?",
+          "item_ar": "قد إيه الناس بتختلف في الآراء حوالين الشغل اللي بيتعمل؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "tc6",
+          "domain_en": "Task Conflict",
+          "domain_ar": "صراع المهمة",
+          "item_en": "How frequently are there conflicts about ideas in your work unit?",
+          "item_ar": "قد إيه بيحصل خلاف حوالين الأفكار جوه الفريق؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "tc7",
+          "domain_en": "Task Conflict",
+          "domain_ar": "صراع المهمة",
+          "item_en": "How much conflict about the work you do is there in your work unit?",
+          "item_ar": "قد إيه فيه خلافات بخصوص طبيعة الشغل اللي بتعملوه؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "tc8",
+          "domain_en": "Task Conflict",
+          "domain_ar": "صراع المهمة",
+          "item_en": "To what extent are there differences of opinion in your work unit?",
+          "item_ar": "لأي درجة فيه اختلافات في وجهات النظر داخل الفريق؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "TEAM_TENSION",
+      "name_en": "Team Functioning Scale – Team Tension",
+      "name_ar": "مؤشر توتر الفريق (عنصر واحد)",
+      "variants": [
+        "Single-item pulse"
+      ],
+      "category": "Interpersonal / Conflict",
+      "target_level": "Team",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review identifies it as a one-item quick pulse correlated with personality clashes and power struggles, but does not reproduce the exact official wording.",
+      "purpose_ar": "نبضة سريعة جدًا لالتقاط وجود توتر عام في الفريق بسبب اصطدامات شخصية أو شد وجذب على السلطة.",
+      "evidence_summary_ar": "التقرير يوصي به كقياس لحظي سريع لما يكون عبء الاستجابة مشكلة، خصوصًا مع المتابعة الأسبوعية.",
+      "item_count_note": "1 item",
+      "reliability": "N/A in uploaded source",
+      "cadence_ar": "أسبوعي أو حتى بعد الاجتماعات الصعبة.",
+      "response_scale_ar": "يفضل 1–5 أو 1–7 حسب تصميم التطبيق.",
+      "scoring_ar": "درجة مفردة؛ كلما زادت الدرجة زاد التوتر المدرك.",
+      "interpretation_ar": "ارتفاع الدرجة لا يعطي تشخيصًا تفصيليًا، لكنه إشارة تشغيلية لفتح تقييم أعمق مثل ICS أو مقابلة سريعة مع القائد.",
+      "thresholds_ar": "استخدم خط الأساس والاتجاه الزمني. مثال عملي: لو ارتفعت الدرجة نقطتين أو أكثر مقارنة بمتوسط آخر 3 قياسات، فعّل متابعة أعمق.",
+      "app_use_ar": "مثالي كـ pulse check قصير جدًا قبل تشغيل بطاريات أطول.",
+      "leader_visibility_ar": "نعم كاتجاه فريق.",
+      "member_visibility_ar": "يمكن إظهار ملخص شخصي فقط لو كان العنصر يقدم على مستوى الفريق ككل.",
+      "admin_visibility_ar": "نعم.",
+      "licensing_note_ar": "النص الرسمي الكامل غير موجود في الملف المرفوع؛ الموصى به هنا هو توصيف تشغيلي مبني على المراجعة.",
+      "domains": [
+        {
+          "domain_id": "TT",
+          "name_en": "Team Tension",
+          "name_ar": "توتر الفريق",
+          "definition_ar": "إحساس عام بوجود شد أو احتكاك داخل الفريق."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "tt1",
+          "domain_en": "Team Tension",
+          "domain_ar": "توتر الفريق",
+          "item_en": "Operational pulse prompt (paraphrased): How much tension is there in your team right now?",
+          "item_ar": "صياغة تشغيلية مقترحة: قد إيه حاسس إن فيه توتر جوه الفريق دلوقتي؟",
+          "reverse_scored": false,
+          "item_status": "paraphrased_from_uploaded_source_description"
+        }
+      ]
+    },
+    {
+      "tool_id": "PSYCHOLOGICAL_SAFETY_PSS",
+      "name_en": "Psychological Safety Scale",
+      "name_ar": "مقياس الأمان النفسي داخل الفريق",
+      "variants": [
+        "7-item team version in uploaded source"
+      ],
+      "category": "Psychological Safety / Team Dynamics",
+      "target_level": "Team",
+      "source_coverage_status": "full_in_uploaded_source",
+      "source_coverage_note": "All 7 items are present in the appendix table.",
+      "purpose_ar": "قياس مدى إحساس أعضاء الفريق إن المكان آمن للكلام، وطرح المشاكل، وطلب المساعدة، وتجربة أفكار بدون خوف من الإحراج أو العقاب الاجتماعي.",
+      "evidence_summary_ar": "المراجعة تصفه كأحد أقوى مؤشرات التعلم الجماعي والابتكار، وأنه قصير وحساس للتغير عبر الوقت ومناسب جدًا للتطبيقات الرقمية.",
+      "item_count_note": "7 items",
+      "reliability": "Not numerically specified in uploaded source table; described as robust and actionable",
+      "cadence_ar": "أسبوعي أو نصف شهري حسب حساسية الفريق.",
+      "response_scale_ar": "ليكرت 5 نقاط من 1 = منخفض/غير موافق جدًا إلى 5 = مرتفع/موافق جدًا.",
+      "scoring_ar": "اعكس البنود 1 و3 و5 إذا استخدمت الصياغة السلبية. مجموع الدرجات من 7 إلى 35 أو متوسط عام من 1 إلى 5. يمكن أيضًا حساب مجالات فرعية تفسيرية.",
+      "interpretation_ar": "الدرجات المنخفضة تعني ثقافة خوف أو صمت أو دفاعية. التحسن مع الوقت يدل غالبًا على تحسن جودة الحوار، الاستفادة من الاختلاف، وإمكانية التعلم الجماعي.",
+      "thresholds_ar": "في الملف المرفوع ورد تفسير 7–21 منخفض، 22–35 متوسط/مرتفع عند استخدام 7 بنود × 5 نقاط. عمليًا يفضل أيضًا متابعة الاتجاه الزمني ونسبة البنود السلبية المرتفعة.",
+      "app_use_ar": "أداة مركزية جدًا في التطبيق، وتستخدم كإشارة مبكرة قبل انفجار الصراع أو هبوط جودة التعاون.",
+      "leader_visibility_ar": "يعرض للقائد كمؤشر فريق واتجاهات، مع عدم كشف الردود الخام لو حجم الفريق صغير جدًا.",
+      "member_visibility_ar": "يمكن عرض متوسطه الشخصي أو إحساسه الذاتي، لكن التركيز الأفضل يكون على نتيجة الفريق المجمعة.",
+      "admin_visibility_ar": "نعم.",
+      "licensing_note_ar": "تم الاعتماد على البنود كما وردت في الملف المرفوع مع ترجمة عربية تشغيلية.",
+      "domains": [
+        {
+          "domain_id": "ET",
+          "name_en": "Error Tolerance",
+          "name_ar": "تحمل الخطأ",
+          "definition_ar": "هل الخطأ مسموح به كجزء من التعلم أم يعاقَب صاحبه اجتماعيًا؟"
+        },
+        {
+          "domain_id": "OC",
+          "name_en": "Open Communication",
+          "name_ar": "التواصل المفتوح",
+          "definition_ar": "القدرة على طرح المشاكل والقضايا الصعبة."
+        },
+        {
+          "domain_id": "INC",
+          "name_en": "Inclusivity",
+          "name_ar": "الاحتواء",
+          "definition_ar": "إحساس الأعضاء بالتقبل وعدم الرفض بسبب الاختلاف."
+        },
+        {
+          "domain_id": "IR",
+          "name_en": "Individual Risk",
+          "name_ar": "الأمان في أخذ المخاطرة",
+          "definition_ar": "إمكانية التجربة أو إبداء رأي غير شائع."
+        },
+        {
+          "domain_id": "MS",
+          "name_en": "Mutual Support",
+          "name_ar": "الدعم المتبادل",
+          "definition_ar": "سهولة طلب المساعدة وعدم تعمد تقويض جهود الآخرين."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "1",
+          "domain_en": "Error Tolerance",
+          "domain_ar": "تحمل الخطأ",
+          "item_en": "If you make a mistake on this team, it is often held against you. (R)",
+          "item_ar": "لو غلطت في الفريق ده، الغلط غالبًا بيتحسب عليك وبيتستخدم ضدك. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "2",
+          "domain_en": "Open Communication",
+          "domain_ar": "التواصل المفتوح",
+          "item_en": "Members of this team are able to bring up problems and tough issues.",
+          "item_ar": "أعضاء الفريق ده يقدروا يفتحوا مشاكل وقضايا صعبة بصراحة.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "3",
+          "domain_en": "Inclusivity",
+          "domain_ar": "الاحتواء/التقبل",
+          "item_en": "People on this team sometimes reject others for being different. (R)",
+          "item_ar": "أحيانًا الناس في الفريق ده بترفض الآخرين عشان مختلفين. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "4",
+          "domain_en": "Individual Risk",
+          "domain_ar": "الأمان في أخذ المخاطرة",
+          "item_en": "It is safe to take a risk on this team.",
+          "item_ar": "آمن إنك تاخد مخاطرة أو تجرب حاجة جديدة في الفريق ده.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "5",
+          "domain_en": "Mutual Support",
+          "domain_ar": "الدعم المتبادل",
+          "item_en": "It is difficult to ask other members of this team for help. (R)",
+          "item_ar": "صعب إنك تطلب مساعدة من باقي أعضاء الفريق ده. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "6",
+          "domain_en": "Mutual Support",
+          "domain_ar": "الدعم المتبادل",
+          "item_en": "No one on this team would deliberately act in a way that undermines my efforts.",
+          "item_ar": "محدش في الفريق ده هيحاول عمدًا يبوّظ مجهودي أو يقلل منه.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "7",
+          "domain_en": "Inclusivity",
+          "domain_ar": "الاحتواء/التقدير",
+          "item_en": "My unique skills and talents are valued and utilized.",
+          "item_ar": "مهاراتي وقدراتي المميزة متقدَّرة وبيتم الاستفادة منها.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "ORG_TRUST_SCALE",
+      "name_en": "Organizational Trust Scale",
+      "name_ar": "مقياس الثقة التنظيمية",
+      "variants": [
+        "17-item measure discussed; 7 appendix sample items available"
+      ],
+      "category": "Trust / Relational Climate",
+      "target_level": "Individual perception aggregated to team/org",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review describes a 17-item scale and the appendix reproduces 7 example items across supervisor, peers, management, and organization.",
+      "purpose_ar": "قياس الثقة في المدير، والزملاء، والإدارة، والمنظمة ككل.",
+      "evidence_summary_ar": "المراجعة تؤكد إن الثقة متعددة المستويات ولازم تتقاس بصورة منفصلة بين المدير والزملاء والإدارة العليا.",
+      "item_count_note": "17 in full scale; 7 items visible in uploaded source",
+      "reliability": "Not reported numerically in uploaded appendix",
+      "cadence_ar": "شهري أو ربع سنوي؛ ليست أداة نبض يومي غالبًا.",
+      "response_scale_ar": "ليكرت 5 نقاط من غير موافق بشدة إلى موافق بشدة.",
+      "scoring_ar": "اعكس البنود السلبية ثم احسب متوسط كل بعد على حدة، ويمكن كذلك حساب متوسط عام للثقة.",
+      "interpretation_ar": "انخفاض الثقة في المدير يؤثر على السلامة النفسية والعدالة المدركة. انخفاض الثقة في الزملاء ينعكس على تبادل المعلومات والتعاون. انخفاض الثقة في الإدارة يشير لمشكلة أوسع في الثقافة التنظيمية.",
+      "thresholds_ar": "لا توجد cutoffs معيارية في الملف المرفوع؛ يفضل استخدام المتوسطات والاتجاهات الزمنية والمقارنة بين الأبعاد المختلفة.",
+      "app_use_ar": "مفيد في لوحات القادة والإدارة لفهم أين تقع مشكلة الثقة بالضبط بدل دمجها في رقم واحد.",
+      "leader_visibility_ar": "يعرض عادة في شكل مجمع، خصوصًا لو حجم الفريق صغير.",
+      "member_visibility_ar": "يمكن عرض انعكاس شخصي أو مقارنته بخط أساسه.",
+      "admin_visibility_ar": "نعم.",
+      "licensing_note_ar": "التقرير لا يعطي النص الكامل لكل البنود السبعة عشر؛ العناصر الظاهرة هنا فقط هي الواردة في الملف المرفوع.",
+      "domains": [
+        {
+          "domain_id": "SUP",
+          "name_en": "Trust in Supervisor",
+          "name_ar": "الثقة في المدير المباشر",
+          "definition_ar": "العدالة والانفتاح والأمان في العلاقة مع المدير."
+        },
+        {
+          "domain_id": "PEER",
+          "name_en": "Trust in Peers",
+          "name_ar": "الثقة في الزملاء",
+          "definition_ar": "السرية والثقة المتبادلة بين أعضاء الفريق."
+        },
+        {
+          "domain_id": "MGT",
+          "name_en": "Trust in Management",
+          "name_ar": "الثقة في الإدارة",
+          "definition_ar": "مدى الثقة في نوايا الإدارة واهتمامها بالعاملين."
+        },
+        {
+          "domain_id": "ORG",
+          "name_en": "Organizational Trust",
+          "name_ar": "الثقة التنظيمية العامة",
+          "definition_ar": "الانطباع الكلي عن جدارة المنظمة بالثقة."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "1",
+          "domain_en": "Trust in Supervisor",
+          "domain_ar": "الثقة في المدير المباشر",
+          "item_en": "I feel free to discuss work problems with my immediate supervisor...",
+          "item_ar": "أشعر إني أقدر أناقش مشاكل الشغل بحرية مع مديري المباشر...",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "2",
+          "domain_en": "Trust in Supervisor",
+          "domain_ar": "الثقة في المدير المباشر",
+          "item_en": "I have complete trust that my immediate supervisor will treat me fairly.",
+          "item_ar": "عندي ثقة كبيرة إن مديري المباشر هيعاملني بعدل.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "6",
+          "domain_en": "Trust in Peers",
+          "domain_ar": "الثقة في الزملاء",
+          "item_en": "There is trust in one another among members of my workgroup.",
+          "item_ar": "فيه ثقة متبادلة بين أعضاء فريق العمل.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "7",
+          "domain_en": "Trust in Peers",
+          "domain_ar": "الثقة في الزملاء",
+          "item_en": "I can share sensitive information with my workgroup... (confidentiality).",
+          "item_ar": "أقدر أشارك معلومات حساسة مع فريقي وأنا واثق إنها هتفضل سرية...",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "10",
+          "domain_en": "Trust in Management",
+          "domain_ar": "الثقة في الإدارة",
+          "item_en": "Management has little regard for the well-being of people who work here. (R)",
+          "item_ar": "الإدارة مش مهتمة بشكل كافي برفاه الناس اللي شغالين هنا. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "11",
+          "domain_en": "Trust in Management",
+          "domain_ar": "الثقة في الإدارة",
+          "item_en": "At my organization, management cannot be trusted. (R)",
+          "item_ar": "في المنظمة دي الإدارة ما ينفعش تتوثق فيها. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "14",
+          "domain_en": "Organizational Trust",
+          "domain_ar": "الثقة التنظيمية العامة",
+          "item_en": "Employees here feel you can't trust this organization. (R)",
+          "item_ar": "الموظفين هنا حاسين إن المنظمة دي ما ينفعش تتوثق فيها. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "PSS10_STRESS",
+      "name_en": "Perceived Stress Scale (PSS-10)",
+      "name_ar": "مقياس الضغط المدرك PSS-10",
+      "variants": [
+        "10-item standard form"
+      ],
+      "category": "Stress / Individual State",
+      "target_level": "Individual",
+      "source_coverage_status": "full_in_uploaded_source",
+      "source_coverage_note": "All 10 items are present in the appendix table.",
+      "purpose_ar": "قياس مدى إحساس الشخص إن حياته أو شغله غير متوقعين أو خارج السيطرة أو محمّلين بضغط زائد خلال الشهر الأخير.",
+      "evidence_summary_ar": "المراجعة تعرضه كأداة غير إكلينيكية مناسبة لقياس الضغط العام، مع تقسيم واضح بين بنود العجز وبنود الكفاءة الذاتية.",
+      "item_count_note": "10 items",
+      "reliability": "Interpretation bands provided in uploaded source; correlates with cortisol and poor health practices according to review",
+      "cadence_ar": "أسبوعي أو نصف شهري إذا أردت متابعة الضغط العام، أو شهري لو عندك بطاريات أخرى كثيرة.",
+      "response_scale_ar": "0 = أبدًا، 1 = نادرًا، 2 = أحيانًا، 3 = كثيرًا، 4 = كثير جدًا.",
+      "scoring_ar": "اعكس البنود 4 و5 و7 و8 ثم اجمع الدرجات. المدى الكلي 0–40.",
+      "interpretation_ar": "الدرجات الأعلى تعني ضغطًا أكبر وإحساسًا أقل بالتحكم. مفيد جدًا كإشارة اتجاه مع الوقت وليس كتشخيص سريري بمفرده.",
+      "thresholds_ar": "0–13 ضغط منخفض، 14–26 ضغط متوسط، 27–40 ضغط مرتفع.",
+      "app_use_ar": "مناسب جدًا لصفحة العضو الشخصية، وللتنبيه المبكر عند اقترانه بارتفاع الاحتراق أو هبوط الكفاءة المهنية.",
+      "leader_visibility_ar": "يفضل في شكل مجمع أو على هيئة مخاطر تشغيلية لا تكشف إجابات حساسة.",
+      "member_visibility_ar": "نعم، مع شرح عملي لكيفية فهم الدرجة.",
+      "admin_visibility_ar": "مجمّع على مستوى التنظيم أو الفِرق.",
+      "licensing_note_ar": "البنود مأخوذة من الملف المرفوع مع ترجمة عربية تشغيلية.",
+      "domains": [
+        {
+          "domain_id": "HELP",
+          "name_en": "Helplessness",
+          "name_ar": "العجز/قلة السيطرة",
+          "definition_ar": "الإحساس بالعجز وعدم القدرة على التحكم في المهمات والأحداث."
+        },
+        {
+          "domain_id": "SE",
+          "name_en": "Self-Efficacy",
+          "name_ar": "الكفاءة الذاتية",
+          "definition_ar": "الإحساس بالقدرة على التعامل والسيطرة؛ بنوده معكوسة في الحساب."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "1",
+          "domain_en": "Helplessness",
+          "domain_ar": "العجز/قلة السيطرة",
+          "item_en": "In the last month, how often have you been upset because of something that happened unexpectedly?",
+          "item_ar": "في آخر شهر، قد إيه اتضايقت بسبب حاجة حصلت فجأة ومن غير توقع؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "2",
+          "domain_en": "Helplessness",
+          "domain_ar": "العجز/قلة السيطرة",
+          "item_en": "In the last month, how often have you felt that you were unable to control the important things?",
+          "item_ar": "في آخر شهر، قد إيه حسيت إنك مش قادر تتحكم في الحاجات المهمة في حياتك أو شغلك؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "3",
+          "domain_en": "Helplessness",
+          "domain_ar": "العجز/قلة السيطرة",
+          "item_en": "In the last month, how often have you felt nervous and \"stressed\"?",
+          "item_ar": "في آخر شهر، قد إيه حسيت بتوتر أو ضغط عصبي؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "4",
+          "domain_en": "Self-Efficacy",
+          "domain_ar": "الكفاءة الذاتية",
+          "item_en": "In the last month, how often have you felt confident about your ability to handle personal problems? (R)",
+          "item_ar": "في آخر شهر، قد إيه كنت واثق إنك تقدر تتعامل مع مشاكلك؟ (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "5",
+          "domain_en": "Self-Efficacy",
+          "domain_ar": "الكفاءة الذاتية",
+          "item_en": "In the last month, how often have you felt that things were going your way? (R)",
+          "item_ar": "في آخر شهر، قد إيه حسيت إن الأمور ماشية في اتجاهك أو ماشية كويس؟ (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "6",
+          "domain_en": "Helplessness",
+          "domain_ar": "العجز/قلة السيطرة",
+          "item_en": "In the last month, how often have you found that you could not cope with all the things you had to do?",
+          "item_ar": "في آخر شهر، قد إيه حسيت إنك مش قادر تواكب كل اللي مطلوب منك؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "7",
+          "domain_en": "Self-Efficacy",
+          "domain_ar": "الكفاءة الذاتية",
+          "item_en": "In the last month, how often have you been able to control irritations in your life? (R)",
+          "item_ar": "في آخر شهر، قد إيه قدرت تتحكم في المضايقات أو الاستفزازات اللي في حياتك؟ (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "8",
+          "domain_en": "Self-Efficacy",
+          "domain_ar": "الكفاءة الذاتية",
+          "item_en": "In the last month, how often have you felt that you were on top of things? (R)",
+          "item_ar": "في آخر شهر، قد إيه حسيت إنك ماسك الأمور وتحت السيطرة؟ (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "9",
+          "domain_en": "Helplessness",
+          "domain_ar": "العجز/قلة السيطرة",
+          "item_en": "In the last month, how often have you been angered because of things that were outside of your control?",
+          "item_ar": "في آخر شهر، قد إيه اتعصبت بسبب حاجات خارج سيطرتك؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "10",
+          "domain_en": "Helplessness",
+          "domain_ar": "العجز/قلة السيطرة",
+          "item_en": "In the last month, how often have you felt difficulties were piling up so high you could not overcome them?",
+          "item_ar": "في آخر شهر، قد إيه حسيت إن الصعوبات تراكمت بشكل كبير لدرجة إنك مش قادر تتغلب عليها؟",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "DSS_FULL",
+      "name_en": "Digital Stress Scale (24-item original)",
+      "name_ar": "مقياس الضغط الرقمي الكامل",
+      "variants": [
+        "24-item original DSS"
+      ],
+      "category": "Digital Stress / Individual State",
+      "target_level": "Individual",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review states the 24-item scale and its five dimensions, but does not list all official items in the uploaded file.",
+      "purpose_ar": "قياس الضغوط المرتبطة بالتواجد الرقمي المستمر، والتوقعات الاجتماعية على المنصات، والإشعارات، والحمل المعرفي الناتج عن الأدوات الرقمية.",
+      "evidence_summary_ar": "المراجعة تعتبره أكثر صدقًا بيئيًا من قياس الضغط العام عندما يكون سياق العمل شديد الرقمية.",
+      "item_count_note": "24 items in original version",
+      "reliability": "Not numerically reported in uploaded file excerpt; described as validated",
+      "cadence_ar": "شهري أو عند تتبع فرق تعتمد بقوة على الرسائل والمنصات والإشعارات.",
+      "response_scale_ar": "استخدم النسخة المعتمدة؛ في التطبيق العملي يمكن الاعتماد على النسخة القصيرة إن كانت السرعة مهمة.",
+      "scoring_ar": "يفضل حساب متوسط كل بُعد على حدة ثم متوسط عام للضغط الرقمي.",
+      "interpretation_ar": "ارتفاع الضغط الرقمي قد يفسر تدهور التركيز، الإحساس بعبء الإتاحة المستمرة، الإرهاق من تعدد الواجهات، والخوف من فوات شيء مهم.",
+      "thresholds_ar": "يفضل التفسير وفق المئينات الداخلية أو خط الأساس لأن الملف المرفوع لم يضع حدودًا تفصيلية موحدة لهذه النسخة.",
+      "app_use_ar": "مفيد جدًا في بيئات hybrid/async وعند الفرق التي تعمل على قنوات رقمية كثيرة.",
+      "leader_visibility_ar": "يفضل كمؤشر مجمع.",
+      "member_visibility_ar": "نعم.",
+      "admin_visibility_ar": "نعم.",
+      "licensing_note_ar": "الملف المرفوع لم يتضمن النص الرسمي الكامل للبنود الأربعة والعشرين.",
+      "domains": [
+        {
+          "domain_id": "AVAIL",
+          "name_en": "Availability Stress",
+          "name_ar": "ضغط التوفر الدائم",
+          "definition_ar": "الضغط الناتج من توقع أن تكون متاحًا وقابلًا للرد طوال الوقت."
+        },
+        {
+          "domain_id": "APPROVAL",
+          "name_en": "Approval Anxiety",
+          "name_ar": "قلق القبول/الاعتماد الاجتماعي",
+          "definition_ar": "القلق من رد فعل الآخرين أو تقييمهم على البيئات الرقمية."
+        },
+        {
+          "domain_id": "FOMO",
+          "name_en": "Fear of Missing Out",
+          "name_ar": "الخوف من فوات شيء",
+          "definition_ar": "الانزعاج من احتمال ضياع حدث أو معلومة أو تفاعل مهم."
+        },
+        {
+          "domain_id": "OVERLOAD",
+          "name_en": "Connection Overload",
+          "name_ar": "حمولة الاتصال الزائدة",
+          "definition_ar": "الإرهاق من كثرة القنوات والتطبيقات والإشعارات."
+        },
+        {
+          "domain_id": "VIGILANCE",
+          "name_en": "Online Vigilance",
+          "name_ar": "اليقظة الرقمية المستمرة",
+          "definition_ar": "المراقبة المستمرة للهاتف أو الرسائل أو الإشعارات."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "avail_example",
+          "domain_en": "Availability Stress",
+          "domain_ar": "ضغط التوفر الدائم",
+          "item_en": "Example focus from source: pressure to be reachable 24/7.",
+          "item_ar": "مثال من الملف: ضغط إنك تكون متاح للناس 24/7 طول الوقت.",
+          "reverse_scored": false,
+          "item_status": "construct_example_from_uploaded_source"
+        },
+        {
+          "item_id": "overload_example",
+          "domain_en": "Connection Overload",
+          "domain_ar": "حمولة الاتصال الزائدة",
+          "item_en": "Example focus from source: exhaustion from navigating multiple interfaces.",
+          "item_ar": "مثال من الملف: إنهاك من التنقل بين منصات وواجهات كثيرة.",
+          "reverse_scored": false,
+          "item_status": "construct_example_from_uploaded_source"
+        },
+        {
+          "item_id": "approval_example",
+          "domain_en": "Approval Anxiety",
+          "domain_ar": "قلق القبول",
+          "item_en": "Example focus from source: stress regarding social validation in digital spaces.",
+          "item_ar": "مثال من الملف: توتر بسبب التقييم الاجتماعي أو القبول على المساحات الرقمية.",
+          "reverse_scored": false,
+          "item_status": "construct_example_from_uploaded_source"
+        },
+        {
+          "item_id": "vigilance_example",
+          "domain_en": "Online Vigilance",
+          "domain_ar": "اليقظة الرقمية المستمرة",
+          "item_en": "Example focus from source: constant monitoring of notifications.",
+          "item_ar": "مثال من الملف: متابعة مستمرة للإشعارات بشكل شبه دائم.",
+          "reverse_scored": false,
+          "item_status": "construct_example_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "DSS_SHORT",
+      "name_en": "Digital Stress Scale – Short Form (DSS-S)",
+      "name_ar": "النسخة القصيرة من مقياس الضغط الرقمي",
+      "variants": [
+        "10-item short form; 2 items per dimension"
+      ],
+      "category": "Digital Stress / Individual State",
+      "target_level": "Individual",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review specifies 10 items, five dimensions, and examples, but not the exact official item wording.",
+      "purpose_ar": "نسخة مختصرة مناسبة للتطبيقات المتكررة؛ تقيس الأبعاد الخمسة الأساسية للضغط الرقمي بعبء إجابة أقل.",
+      "evidence_summary_ar": "المراجعة تذكر إنها تحققت عبر ثقافات متعددة، وتنبأت بالاحتراق ونية ترك العمل.",
+      "item_count_note": "10 items",
+      "reliability": "Described as cross-culturally validated with strong predictive validity",
+      "cadence_ar": "أسبوعي أو كل أسبوعين في الفرق الرقمية الكثيفة.",
+      "response_scale_ar": "7 نقاط غالبًا: 1 = أبدًا، 7 = دائمًا.",
+      "scoring_ar": "اجمع أو متوسط بندين لكل بعد، ثم احسب متوسطًا عامًا. لأن الملف يشير إلى بندين لكل بعد.",
+      "interpretation_ar": "الدرجات المرتفعة تعني ضغطًا رقميًا ملحوظًا قد يسبق الإرهاق أو ضعف التركيز أو نية الانسحاب.",
+      "thresholds_ar": "التقرير يذكر أن الدرجات فوق المئين التسعين تدل على ضغط رقمي مرتفع بشكل لافت. عمليًا يمكن أيضًا استخدام baseline داخلي.",
+      "app_use_ar": "أفضل من النسخة الكاملة عند الحاجة لنبضات دورية قصيرة.",
+      "leader_visibility_ar": "مجمّع.",
+      "member_visibility_ar": "نعم.",
+      "admin_visibility_ar": "نعم.",
+      "licensing_note_ar": "النص الكامل للبنود العشرة غير موجود في الملف المرفوع؛ الموثق هنا هو بنية الأداة وأمثلة محتواها.",
+      "domains": [
+        {
+          "domain_id": "AVAIL",
+          "name_en": "Availability Stress",
+          "name_ar": "ضغط التوفر الدائم",
+          "definition_ar": "إحساسك إن لازم تفضل متاح وترد بسرعة."
+        },
+        {
+          "domain_id": "APPROVAL",
+          "name_en": "Approval Anxiety",
+          "name_ar": "قلق القبول",
+          "definition_ar": "الانشغال بردود فعل الناس وتعليقاتهم وتقييمهم."
+        },
+        {
+          "domain_id": "FOMO",
+          "name_en": "Fear of Missing Out",
+          "name_ar": "الخوف من فوات شيء",
+          "definition_ar": "الخوف من إنك تفوت معلومة أو فرصة أو حدث."
+        },
+        {
+          "domain_id": "OVERLOAD",
+          "name_en": "Connection Overload",
+          "name_ar": "حمولة الاتصال الزائدة",
+          "definition_ar": "الإرهاق من كثافة الرسائل والمنصات والإشعارات."
+        },
+        {
+          "domain_id": "VIGILANCE",
+          "name_en": "Online Vigilance",
+          "name_ar": "اليقظة الرقمية المستمرة",
+          "definition_ar": "فحص الهاتف أو الإشعارات بشكل متكرر وقهري."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "availability_example",
+          "domain_en": "Availability Stress",
+          "domain_ar": "ضغط التوفر الدائم",
+          "item_en": "Feeling obligation to respond immediately.",
+          "item_ar": "الإحساس إن لازم ترد فورًا ومن غير تأخير.",
+          "reverse_scored": false,
+          "item_status": "example_from_uploaded_source"
+        },
+        {
+          "item_id": "approval_example",
+          "domain_en": "Approval Anxiety",
+          "domain_ar": "قلق القبول",
+          "item_en": "Worrying about feedback on digital posts.",
+          "item_ar": "القلق من ردود الفعل أو التقييم على تفاعلاتك الرقمية.",
+          "reverse_scored": false,
+          "item_status": "example_from_uploaded_source"
+        },
+        {
+          "item_id": "fomo_example",
+          "domain_en": "Fear of Missing Out",
+          "domain_ar": "الخوف من فوات شيء",
+          "item_en": "Fear that others are having better experiences.",
+          "item_ar": "الخوف إن الآخرين عايشين تجارب أفضل أو عندهم معلومات أنت فايتاك.",
+          "reverse_scored": false,
+          "item_status": "example_from_uploaded_source"
+        },
+        {
+          "item_id": "overload_example",
+          "domain_en": "Connection Overload",
+          "domain_ar": "حمولة الاتصال الزائدة",
+          "item_en": "Feeling overwhelmed by notification volume.",
+          "item_ar": "الإحساس إن حجم الإشعارات كتير ومغرقك.",
+          "reverse_scored": false,
+          "item_status": "example_from_uploaded_source"
+        },
+        {
+          "item_id": "vigilance_example",
+          "domain_en": "Online Vigilance",
+          "domain_ar": "اليقظة الرقمية المستمرة",
+          "item_en": "Compulsive checking of devices for updates.",
+          "item_ar": "فحص الموبايل أو الأجهزة بشكل متكرر وبصورة شبه قهرية علشان تشوف تحديثات جديدة.",
+          "reverse_scored": false,
+          "item_status": "example_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "DIGITAL_STRESSORS_50",
+      "name_en": "Digital Stressors Scale",
+      "name_ar": "مقياس مثيرات الضغط الرقمي الموسع",
+      "variants": [
+        "50-item extended workplace scale"
+      ],
+      "category": "Digital Stress / Advanced",
+      "target_level": "Individual / profession-specific",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review mentions the 50-item scale and examples of domains, but does not reproduce the full item bank.",
+      "purpose_ar": "فهم الضغوط الرقمية بالتفصيل في بيئات العمل، خصوصًا عندما تحتاج تحليل أعمق من النسخة القصيرة.",
+      "evidence_summary_ar": "المراجعة تذكر أنه يضيف أبعادًا مثل الملل التقني، فقدان السيطرة، والتعقيد، ولذلك يفيد في التحليل المتعمق أو البحثي.",
+      "item_count_note": "50 items",
+      "reliability": "Not detailed in uploaded summary",
+      "cadence_ar": "ربع سنوي أو عند دراسات خاصة، وليس للنبض السريع.",
+      "response_scale_ar": "راجع النسخة الأصلية المعتمدة قبل التطبيق.",
+      "scoring_ar": "يفضل على مستوى الأبعاد وليس رقمًا واحدًا فقط.",
+      "interpretation_ar": "يفصل بين أنواع متعددة من الضغط الرقمي ويساعد على تحديد هل المشكلة في كثرة الأدوات، تعقيدها، فقدان التحكم، أم الملل/التشبع.",
+      "thresholds_ar": "غير متاحة في الملف المرفوع.",
+      "app_use_ar": "أداة enterprise أو research mode أكثر من كونها أداة MVP.",
+      "leader_visibility_ar": "مجمّع فقط.",
+      "member_visibility_ar": "نعم لو تم استخدامها كفحص متقدم.",
+      "admin_visibility_ar": "نعم.",
+      "licensing_note_ar": "النص الكامل للبنود غير موجود في الملف المرفوع.",
+      "domains": [
+        {
+          "domain_id": "BOREDOM",
+          "name_en": "Tech-induced boredom",
+          "name_ar": "الملل المرتبط بالأدوات الرقمية",
+          "definition_ar": "الإرهاق أو الفتور الناتج عن تكرار التفاعل مع أدوات رقمية مملة أو مجهدة."
+        },
+        {
+          "domain_id": "CONTROL",
+          "name_en": "Lack of control",
+          "name_ar": "فقدان الإحساس بالتحكم",
+          "definition_ar": "الإحساس إن الأدوات والعمليات الرقمية هي التي تفرض إيقاع العمل عليك."
+        },
+        {
+          "domain_id": "COMPLEX",
+          "name_en": "Complexity",
+          "name_ar": "التعقيد",
+          "definition_ar": "صعوبة استخدام الأنظمة أو كثرة الخطوات أو غموضها."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "domain_note_1",
+          "domain_en": "Tech-induced boredom",
+          "domain_ar": "الملل التقني",
+          "item_en": "Full item wording not reproduced in uploaded source.",
+          "item_ar": "النص الكامل للبنود الخاصة بهذا البعد غير موجود في الملف المرفوع.",
+          "reverse_scored": false,
+          "item_status": "not_provided_in_uploaded_source"
+        },
+        {
+          "item_id": "domain_note_2",
+          "domain_en": "Lack of control",
+          "domain_ar": "فقدان التحكم",
+          "item_en": "Full item wording not reproduced in uploaded source.",
+          "item_ar": "النص الكامل للبنود الخاصة بهذا البعد غير موجود في الملف المرفوع.",
+          "reverse_scored": false,
+          "item_status": "not_provided_in_uploaded_source"
+        },
+        {
+          "item_id": "domain_note_3",
+          "domain_en": "Complexity",
+          "domain_ar": "التعقيد",
+          "item_en": "Full item wording not reproduced in uploaded source.",
+          "item_ar": "النص الكامل للبنود الخاصة بهذا البعد غير موجود في الملف المرفوع.",
+          "reverse_scored": false,
+          "item_status": "not_provided_in_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "DASS21",
+      "name_en": "Depression, Anxiety and Stress Scale (DASS-21)",
+      "name_ar": "مقياس الاكتئاب والقلق والضغط DASS-21",
+      "variants": [
+        "21-item short form"
+      ],
+      "category": "Mental Health / Distress Screening",
+      "target_level": "Individual",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review strongly recommends it and describes its tripartite structure, but does not list all 21 official items in the uploaded file.",
+      "purpose_ar": "فصل الضيق النفسي إلى ثلاثة مكونات مترابطة لكن منفصلة: اكتئاب، قلق، وضغط.",
+      "evidence_summary_ar": "المراجعة تصفه كأحد أقوى المقاييس لقياس الضيق النفسي في الفئات غير الإكلينيكية، مع اتساق داخلي وثبات مرتفعين.",
+      "item_count_note": "21 items (7 لكل بعد)",
+      "reliability": "Review mentions excellent internal consistency and test-retest reliability about 0.78–0.92",
+      "cadence_ar": "Triggered only أو على فترات أوسع؛ ليس مناسبًا كنبضة قصيرة أسبوعية لكل المستخدمين.",
+      "response_scale_ar": "استخدم النسخة المعتمدة رسميًا من DASS-21 عند التطبيق.",
+      "scoring_ar": "اجمع 7 بنود لكل بعد على حدة (اكتئاب/قلق/ضغط)، ويمكن مضاعفة الدرجة إذا اتبعت قواعد المعايرة المقابلة للنسخة 42 بندًا بحسب الدليل المعتمد.",
+      "interpretation_ar": "مفيد عندما تحتاج تمييزًا أدق بين الضيق العام والاكتئاب والقلق والضغط، خصوصًا بعد ظهور مؤشرات خطر من مقاييس أقصر.",
+      "thresholds_ar": "يجب الرجوع لجدول التفسير الرسمي للنسخة المعتمدة التي ستستخدمها؛ الملف المرفوع لم يورد جداول القطع التفصيلية.",
+      "app_use_ar": "استخدمه كتصعيد ثانوي وليس في مسار onboarding الخفيف أو النبض الأسبوعي.",
+      "leader_visibility_ar": "لا يُعرض خامًا للقائد.",
+      "member_visibility_ar": "يعرض للعضو مع شرح ودعم مناسبين.",
+      "admin_visibility_ar": "مجمّع أو عبر أدوار دعم مختصة فقط.",
+      "licensing_note_ar": "الملف المرفوع لا يتضمن النص الرسمي الكامل للبنود 21.",
+      "domains": [
+        {
+          "domain_id": "DEP",
+          "name_en": "Depression",
+          "name_ar": "الاكتئاب",
+          "definition_ar": "هبوط الدافعية والمشاعر الإيجابية والاهتمام والمعنى."
+        },
+        {
+          "domain_id": "ANX",
+          "name_en": "Anxiety",
+          "name_ar": "القلق",
+          "definition_ar": "الاستثارة والقلق والتوتر الجسدي والمعرفي."
+        },
+        {
+          "domain_id": "STR",
+          "name_en": "Stress",
+          "name_ar": "الضغط/التوتر",
+          "definition_ar": "التوتر المستمر وصعوبة الاسترخاء وسرعة الاستثارة."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "coverage_note",
+          "domain_en": "All domains",
+          "domain_ar": "كل الأبعاد",
+          "item_en": "Official 21-item wording not reproduced in uploaded source.",
+          "item_ar": "النص الرسمي الكامل لبنود DASS-21 غير موجود في الملف المرفوع؛ المتاح هنا هو البنية وطريقة الاستخدام والتفسير العام.",
+          "reverse_scored": false,
+          "item_status": "not_provided_in_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "PHQ9",
+      "name_en": "Patient Health Questionnaire (PHQ-9)",
+      "name_ar": "استبيان صحة المريض PHQ-9",
+      "variants": [
+        "9-item depression screener"
+      ],
+      "category": "Mental Health / Depression Screening",
+      "target_level": "Individual",
+      "source_coverage_status": "full_in_uploaded_source",
+      "source_coverage_note": "All 9 item problem statements are present in the appendix table.",
+      "purpose_ar": "فحص شدة أعراض الاكتئاب خلال آخر أسبوعين بسرعة وبدرجة معروفة الاستخدام.",
+      "evidence_summary_ar": "المراجعة تعرضه كمعيار سريع وقوي للكشف عن الاكتئاب، وتشير إلى أن درجة 10 أو أكثر ترتبط بحساسية مرتفعة للاضطراب الاكتئابي الشديد، كما تشدد على التعامل الفوري مع البند التاسع.",
+      "item_count_note": "9 items",
+      "reliability": "Review cites strong sensitivity; score ≥10 often used as clinically meaningful screening threshold",
+      "cadence_ar": "يستخدم عند الحاجة أو عند التصعيد من أدوات أقصر، وليس كقياس اعتيادي شفاف للقادة.",
+      "response_scale_ar": "0 = أبدًا، 1 = عدة أيام، 2 = أكثر من نصف الأيام، 3 = تقريبًا كل يوم.",
+      "scoring_ar": "اجمع البنود التسعة. المدى 0–27.",
+      "interpretation_ar": "الدرجة الأعلى تعني شدة أعلى للأعراض المكتئبة. هذا فحص وليس تشخيصًا نهائيًا. يجب وجود مسار تصعيد مهني واضح خصوصًا في حالة البند التاسع.",
+      "thresholds_ar": "0–4 لا شيء/حد أدنى، 5–9 بسيط، 10–14 متوسط، 15–19 متوسط شديد، 20–27 شديد. أي استجابة إيجابية للبند 9 تتطلب تقييمًا فوريًا.",
+      "app_use_ar": "أداة high-risk screening فقط داخل التطبيق. لازم تتربط بخطة دعم، وموافقة، وتنبيهات مدروسة، وعدم كشفها للقائد بشكل خام.",
+      "leader_visibility_ar": "لا.",
+      "member_visibility_ar": "نعم مع تحذير واضح ودعم وتوجيه للمساعدة.",
+      "admin_visibility_ar": "فقط لأدوار الدعم أو الامتثال وفق السياسة.",
+      "licensing_note_ar": "تم الاعتماد على البنود كما وردت في الملف المرفوع مع ترجمة عربية تشغيلية.",
+      "domains": [
+        {
+          "domain_id": "PHQ9",
+          "name_en": "Depression Symptom Severity",
+          "name_ar": "شدة أعراض الاكتئاب",
+          "definition_ar": "البنود تغطي فقدان المتعة والمزاج والنوم والطاقة والشهية والذنب والتركيز والبطء/التهيج والأفكار المؤذية."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "1",
+          "domain_en": "Anhedonia",
+          "domain_ar": "فقدان المتعة",
+          "item_en": "Little interest or pleasure in doing things",
+          "item_ar": "قلة الاهتمام أو المتعة في عمل الأشياء",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "2",
+          "domain_en": "Depressed Mood",
+          "domain_ar": "المزاج المكتئب",
+          "item_en": "Feeling down, depressed, or hopeless",
+          "item_ar": "الإحساس بالحزن أو الاكتئاب أو فقدان الأمل",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "3",
+          "domain_en": "Sleep Disturbance",
+          "domain_ar": "اضطراب النوم",
+          "item_en": "Trouble falling or staying asleep, or sleeping too much",
+          "item_ar": "صعوبة في النوم أو الاستمرار فيه، أو النوم أكثر من اللازم",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "4",
+          "domain_en": "Fatigue",
+          "domain_ar": "الإرهاق",
+          "item_en": "Feeling tired or having little energy",
+          "item_ar": "الإحساس بالتعب أو ضعف الطاقة",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "5",
+          "domain_en": "Appetite Change",
+          "domain_ar": "تغير الشهية",
+          "item_en": "Poor appetite or overeating",
+          "item_ar": "ضعف الشهية أو الأكل الزائد",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "6",
+          "domain_en": "Self-worth / Guilt",
+          "domain_ar": "تقدير الذات/الذنب",
+          "item_en": "Feeling bad about yourself — or that you are a failure...",
+          "item_ar": "الإحساس إنك سيئ تجاه نفسك أو إنك فاشل...",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "7",
+          "domain_en": "Concentration",
+          "domain_ar": "التركيز",
+          "item_en": "Trouble concentrating on things, such as reading...",
+          "item_ar": "صعوبة في التركيز على الأشياء، مثل القراءة...",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "8",
+          "domain_en": "Psychomotor",
+          "domain_ar": "الحركة/التهيج النفسي الحركي",
+          "item_en": "Moving or speaking so slowly... or the opposite",
+          "item_ar": "البطء في الحركة أو الكلام بشكل ملحوظ... أو العكس",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "9",
+          "domain_en": "Suicidality",
+          "domain_ar": "أفكار مؤذية للنفس",
+          "item_en": "Thoughts that you would be better off dead...",
+          "item_ar": "أفكار إنك لو مت أو آذيت نفسك يمكن يكون أفضل...",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "MBI_GS",
+      "name_en": "Maslach Burnout Inventory – General Survey",
+      "name_ar": "مقياس ماشلاك للاحتراق المهني – النسخة العامة",
+      "variants": [
+        "16-item general survey",
+        "Representative items available in uploaded source"
+      ],
+      "category": "Burnout / Work Well-being",
+      "target_level": "Individual",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review lists the three subscales, item counts, one representative item per subscale, and profile boundary notes, but not all 16 official items.",
+      "purpose_ar": "قياس الاحتراق المهني بوصفه مزيجًا من الاستنزاف، والانسحاب/اللامبالاة، وتراجع الفاعلية المهنية.",
+      "evidence_summary_ar": "المراجعة تميز بين الاحتراق والضغط العام، وتوصي بالنسخة العامة لغير المهن الخدمية، مع استبدال depersonalization بمفهوم cynicism.",
+      "item_count_note": "16 items: Exhaustion 5, Cynicism 5, Professional Efficacy 6",
+      "reliability": "Exhaustion: good; Cynicism and Professional Efficacy: medium according to summary table",
+      "cadence_ar": "شهري أو ربع سنوي. ليس مناسبًا كل أسبوع لكل المستخدمين.",
+      "response_scale_ar": "7 نقاط غالبًا: 0 = أبدًا إلى 6 = يوميًا.",
+      "scoring_ar": "احسب كل بُعد على حدة: الاستنزاف، السخرية/اللامبالاة، والفاعلية المهنية. الاحتراق يظهر عادة عندما يرتفع الاستنزاف والسخرية ويهبط بُعد الفاعلية المهنية.",
+      "interpretation_ar": "وجود ضغط مرتفع وحده ليس مرادفًا للاحتراق. الاحتراق يحتاج صورة أكثر ثباتًا: إنهاك + مسافة نفسية سلبية من العمل + تراجع الإحساس بالكفاءة.",
+      "thresholds_ar": "الملف يشير إلى profile boundaries من نوع Exhaustion مرتفع وCynicism مرتفع مع Efficacy منخفض، لكنه لا يورد cutoffs رقمية كاملة لكل نسخة؛ استخدم دليل النسخة المعتمدة لديك.",
+      "app_use_ar": "يصلح للفحص المتعمق أو الدوري، بينما تستخدم الأداة الأحادية كنبضة أسرع.",
+      "leader_visibility_ar": "مجمّع أو إشارات تشغيلية فقط.",
+      "member_visibility_ar": "نعم.",
+      "admin_visibility_ar": "مجمّع/مختص.",
+      "licensing_note_ar": "بعض نسخ MBI مرخصة رسميًا، والملف المرفوع لا يتضمن النص الكامل للبنود الستة عشر.",
+      "domains": [
+        {
+          "domain_id": "EXH",
+          "name_en": "Exhaustion",
+          "name_ar": "الاستنزاف",
+          "definition_ar": "استنزاف الطاقة العاطفية والجسدية."
+        },
+        {
+          "domain_id": "CYN",
+          "name_en": "Cynicism",
+          "name_ar": "السخرية/اللامبالاة",
+          "definition_ar": "مسافة نفسية سلبية أو لا مبالاة تجاه العمل."
+        },
+        {
+          "domain_id": "PE",
+          "name_en": "Professional Efficacy",
+          "name_ar": "الفاعلية المهنية",
+          "definition_ar": "الإحساس بالكفاءة والإنجاز والقدرة في العمل."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "exh_example",
+          "domain_en": "Exhaustion",
+          "domain_ar": "الاستنزاف",
+          "item_en": "Representative item in uploaded source: I feel emotionally drained from my work.",
+          "item_ar": "بند تمثيلي في الملف: أشعر أن الشغل مستنزفني عاطفيًا.",
+          "reverse_scored": false,
+          "item_status": "representative_item_from_uploaded_source"
+        },
+        {
+          "item_id": "cyn_example",
+          "domain_en": "Cynicism",
+          "domain_ar": "السخرية/اللامبالاة",
+          "item_en": "Representative item in uploaded source: I have become less enthusiastic about my work.",
+          "item_ar": "بند تمثيلي في الملف: بقيت أقل حماسًا تجاه شغلي.",
+          "reverse_scored": false,
+          "item_status": "representative_item_from_uploaded_source"
+        },
+        {
+          "item_id": "pe_example",
+          "domain_en": "Professional Efficacy",
+          "domain_ar": "الفاعلية المهنية",
+          "item_en": "Representative item in uploaded source: In my opinion, I am good at my job.",
+          "item_ar": "بند تمثيلي في الملف: من وجهة نظري أنا شاطر/جيد في شغلي.",
+          "reverse_scored": true,
+          "item_status": "representative_item_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "BURNOUT_SINGLE",
+      "name_en": "Single-item Burnout Measure",
+      "name_ar": "مؤشر الاحتراق المهني الأحادي",
+      "variants": [
+        "1-item proxy"
+      ],
+      "category": "Burnout / Quick Pulse",
+      "target_level": "Individual",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review provides the actual one-line item and says it correlates strongly with the emotional exhaustion scale.",
+      "purpose_ar": "التقاط سريع جدًا لاحتمال الاحتراق أو الاستنزاف المرتبط بالعمل.",
+      "evidence_summary_ar": "المراجعة تذكر أن البند الأحادي يرتبط بقوة بمقياس الاستنزاف العاطفي الكامل، ولذلك هو مفيد جدًا كنبضة سريعة.",
+      "item_count_note": "1 item",
+      "reliability": "Reported as strongly correlated with full emotional exhaustion measure",
+      "cadence_ar": "أسبوعي أو نصف شهري.",
+      "response_scale_ar": "يمكن استخدام 1–5 أو 0–6 بحسب تصميم النظام، مع ثبات الصياغة عبر الزمن.",
+      "scoring_ar": "درجة مفردة؛ تابعها كاتجاه زمني.",
+      "interpretation_ar": "الارتفاع المستمر عبر 2–3 موجات أهم من قراءة وحيدة مرتفعة.",
+      "thresholds_ar": "حدد cutoffs داخلية حسب scale المختارة. مثال تشغيلي: 4/5 أو أعلى لمرتين متتاليتين = تنبيه.",
+      "app_use_ar": "مثالي مع PSS وICS في النبض الأسبوعي.",
+      "leader_visibility_ar": "مجمّع أو في شكل علم/flag حسب السياسة.",
+      "member_visibility_ar": "نعم.",
+      "admin_visibility_ar": "نعم.",
+      "licensing_note_ar": "النص المذكور هنا ظهر فعليًا في الملف المرفوع.",
+      "domains": [
+        {
+          "domain_id": "BURN",
+          "name_en": "Burnout",
+          "name_ar": "الاحتراق المهني",
+          "definition_ar": "استنزاف مرتبط بالعمل."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "burn1",
+          "domain_en": "Burnout",
+          "domain_ar": "الاحتراق المهني",
+          "item_en": "I feel burned out from my work.",
+          "item_ar": "أنا حاسس/حاسة إني محترق/مستنزف من شغلي.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "ERQ",
+      "name_en": "Emotion Regulation Questionnaire",
+      "name_ar": "استبيان تنظيم الانفعال",
+      "variants": [
+        "10-item ERQ"
+      ],
+      "category": "Emotion Regulation / Individual Style",
+      "target_level": "Individual",
+      "source_coverage_status": "full_in_uploaded_source",
+      "source_coverage_note": "All 10 items are visible in the appendix table.",
+      "purpose_ar": "قياس أسلوبين شائعين لتنظيم المشاعر: إعادة التقييم المعرفي والكبت التعبيري.",
+      "evidence_summary_ar": "المراجعة تشير إلى أن إعادة التقييم ترتبط بنتائج نفسية أفضل، بينما يرتبط الكبت بصعوبات بين شخصية وزيادة الاستثارة الفسيولوجية.",
+      "item_count_note": "10 items",
+      "reliability": "Not numerically specified in source excerpt",
+      "cadence_ar": "عند onboarding أو كل عدة أشهر؛ هو أسلوب شبه ثابت نسبيًا وليس نبضة أسبوعية.",
+      "response_scale_ar": "1 = لا أوافق بشدة إلى 7 = أوافق بشدة.",
+      "scoring_ar": "متوسط/مجموع البنود 1 و3 و5 و7 و8 و10 = إعادة تقييم. ومتوسط/مجموع البنود 2 و4 و6 و9 = كبت تعبيري.",
+      "interpretation_ar": "ارتفاع إعادة التقييم غالبًا نقطة قوة في المرونة النفسية. ارتفاع الكبت قد يعني أسلوبًا محافظًا أو دفاعيًا في التعبير، وقد يرتبط بصعوبات تواصل أو ضغط داخلي أعلى.",
+      "thresholds_ar": "لا توجد حدود معيارية في الملف المرفوع؛ استخدم المقارنة النسبية وخط الأساس.",
+      "app_use_ar": "أداة ممتازة لبناء البروفايل الشخصي عند onboarding، وليس لاكتشاف أزمة لحظية.",
+      "leader_visibility_ar": "يفضل عدم عرضه خامًا للقائد.",
+      "member_visibility_ar": "نعم في صورة profile insight.",
+      "admin_visibility_ar": "لا حاجة عادة إلا مجمعًا.",
+      "licensing_note_ar": "البنود هنا مأخوذة من الملف المرفوع مع ترجمة تشغيلية.",
+      "domains": [
+        {
+          "domain_id": "CR",
+          "name_en": "Cognitive Reappraisal",
+          "name_ar": "إعادة التقييم المعرفي",
+          "definition_ar": "تغيير طريقة التفكير في الموقف لتغيير المشاعر."
+        },
+        {
+          "domain_id": "ES",
+          "name_en": "Expressive Suppression",
+          "name_ar": "الكبت التعبيري",
+          "definition_ar": "ضبط المشاعر عن طريق منع إظهارها."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "1",
+          "domain_en": "Cognitive Reappraisal",
+          "domain_ar": "إعادة التقييم المعرفي",
+          "item_en": "When I want to feel more positive emotion, I change what I'm thinking about.",
+          "item_ar": "لما أحب أحس بمشاعر أكثر إيجابية، بغيّر اللي بفكر فيه.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "2",
+          "domain_en": "Expressive Suppression",
+          "domain_ar": "الكبت التعبيري",
+          "item_en": "I keep my emotions to myself.",
+          "item_ar": "باحتفظ بمشاعري لنفسي ومش بعبّر عنها.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "3",
+          "domain_en": "Cognitive Reappraisal",
+          "domain_ar": "إعادة التقييم المعرفي",
+          "item_en": "When I want to feel less negative emotion, I change what I'm thinking about.",
+          "item_ar": "لما أحب أقلل مشاعر سلبية، بغيّر اللي بفكر فيه.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "4",
+          "domain_en": "Expressive Suppression",
+          "domain_ar": "الكبت التعبيري",
+          "item_en": "When I am feeling positive emotions, I am careful not to express them.",
+          "item_ar": "لما بحس بمشاعر إيجابية، باخد بالي ما أظهرهاش بقوة.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "5",
+          "domain_en": "Cognitive Reappraisal",
+          "domain_ar": "إعادة التقييم المعرفي",
+          "item_en": "When I'm faced with a stressful situation, I make myself think about it...",
+          "item_ar": "لما أواجه موقف ضاغط، بحاول أغيّر طريقتي في التفكير فيه...",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "6",
+          "domain_en": "Expressive Suppression",
+          "domain_ar": "الكبت التعبيري",
+          "item_en": "I control my emotions by not expressing them.",
+          "item_ar": "بتحكم في مشاعري عن طريق إني ما أظهرهاش.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "7",
+          "domain_en": "Cognitive Reappraisal",
+          "domain_ar": "إعادة التقييم المعرفي",
+          "item_en": "When I want to feel more positive emotion, I change the way I'm thinking...",
+          "item_ar": "لما أحب أحس بإيجابية أكتر، بغيّر طريقة تفكيري...",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "8",
+          "domain_en": "Cognitive Reappraisal",
+          "domain_ar": "إعادة التقييم المعرفي",
+          "item_en": "I control my emotions by changing the way I think about the situation...",
+          "item_ar": "بتحكم في مشاعري عن طريق تغيير طريقة تفكيري في الموقف...",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "9",
+          "domain_en": "Expressive Suppression",
+          "domain_ar": "الكبت التعبيري",
+          "item_en": "When I am feeling negative emotions, I make sure not to express them.",
+          "item_ar": "لما أحس بمشاعر سلبية، بتأكد إني ما أظهرهاش.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "10",
+          "domain_en": "Cognitive Reappraisal",
+          "domain_ar": "إعادة التقييم المعرفي",
+          "item_en": "When I want to feel less negative emotion, I change the way I'm thinking...",
+          "item_ar": "لما أحب أقلل المشاعر السلبية، بغيّر طريقة تفكيري...",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "BFI10",
+      "name_en": "Big Five Inventory (BFI-10)",
+      "name_ar": "النسخة القصيرة من العوامل الخمسة الكبرى BFI-10",
+      "variants": [
+        "10-item brief personality profile"
+      ],
+      "category": "Personality / Baseline Profile",
+      "target_level": "Individual",
+      "source_coverage_status": "full_in_uploaded_source",
+      "source_coverage_note": "All 10 items appear in the appendix table.",
+      "purpose_ar": "تكوين بصمة أولية سريعة للشخصية عبر خمسة أبعاد كبرى: الانبساط، الوداعة، الانضباط، العصابية، والانفتاح.",
+      "evidence_summary_ar": "المراجعة تربط السمات الخمس باستراتيجيات إدارة الصراع، وتشير خصوصًا إلى ارتباط ارتفاع العصابية مع انخفاض الوداعة بزيادة التوتر بين الأشخاص.",
+      "item_count_note": "10 items",
+      "reliability": "Brief form; source provides simple subscale interpretation bands",
+      "cadence_ar": "مرة عند onboarding أو في فترات متباعدة جدًا، لأنه يقيس سمة أكثر من حالة مؤقتة.",
+      "response_scale_ar": "1 = لا أوافق بشدة إلى 5 = أوافق بشدة.",
+      "scoring_ar": "اعكس البنود 1 و3 و4 و5 و7 ثم احسب المتوسط لكل سمة من بندين فقط لكل بعد.",
+      "interpretation_ar": "يفضل استخدامه للفهم والتخصيص وليس للحكم. مثلًا: العصابية الأعلى قد ترتبط بحساسية أكبر للصراع والضغط؛ الانبساط والانفتاح قد يدعمان تكوين العلاقات والتكيف الاجتماعي.",
+      "thresholds_ar": "الملف يشير إلى متوسط 4.0–5.0 = حضور مرتفع للسمة، و1.0–2.4 = حضور منخفض. لكن لأن كل سمة تقاس ببندين فقط، الأفضل التعامل معه كبروفايل تقريبي.",
+      "app_use_ar": "مناسب جدًا كبروفايل مبدئي عند التسجيل، ولتخصيص أسلوب التوصيات والتفاعل داخل التطبيق.",
+      "leader_visibility_ar": "يفضل عدم كشفه خامًا للقائد.",
+      "member_visibility_ar": "نعم، كملف شخصي.",
+      "admin_visibility_ar": "لا حاجة إلا مجمعًا أو لأغراض البحث الداخلي.",
+      "licensing_note_ar": "البنود مأخوذة من الملف المرفوع مع ترجمة تشغيلية.",
+      "domains": [
+        {
+          "domain_id": "E",
+          "name_en": "Extraversion",
+          "name_ar": "الانبساط",
+          "definition_ar": "الاجتماعية والانطلاق والحيوية."
+        },
+        {
+          "domain_id": "A",
+          "name_en": "Agreeableness",
+          "name_ar": "الوداعة/الموافقة",
+          "definition_ar": "التعاون واللين والثقة والدفء."
+        },
+        {
+          "domain_id": "C",
+          "name_en": "Conscientiousness",
+          "name_ar": "يقظة الضمير/الانضباط",
+          "definition_ar": "الالتزام والتنظيم والاعتمادية."
+        },
+        {
+          "domain_id": "N",
+          "name_en": "Neuroticism",
+          "name_ar": "العصابية",
+          "definition_ar": "القابلية للتوتر والانفعالات السلبية."
+        },
+        {
+          "domain_id": "O",
+          "name_en": "Openness",
+          "name_ar": "الانفتاح على الخبرة",
+          "definition_ar": "الخيال والفضول والتجريب والإبداع."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "1",
+          "domain_en": "Extraversion",
+          "domain_ar": "الانبساط",
+          "item_en": "I see myself as someone who is reserved. (R)",
+          "item_ar": "أنا شايف نفسي كشخص متحفظ/منغلق شوية. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "2",
+          "domain_en": "Agreeableness",
+          "domain_ar": "الموافقة/الوداعة",
+          "item_en": "I see myself as someone who is generally trusting.",
+          "item_ar": "أنا شايف نفسي كشخص يميل عمومًا إلى الثقة في الناس.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "3",
+          "domain_en": "Conscientiousness",
+          "domain_ar": "يقظة الضمير/الانضباط",
+          "item_en": "I see myself as someone who tends to be lazy. (R)",
+          "item_ar": "أنا شايف نفسي كشخص يميل للكسل. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "4",
+          "domain_en": "Neuroticism",
+          "domain_ar": "العصابية/الاستثارة الانفعالية",
+          "item_en": "I see myself as someone who is relaxed, handles stress well. (R)",
+          "item_ar": "أنا شايف نفسي كشخص هادي وبيعرف يتعامل مع الضغط كويس. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "5",
+          "domain_en": "Openness",
+          "domain_ar": "الانفتاح على الخبرة",
+          "item_en": "I see myself as someone who has few artistic interests. (R)",
+          "item_ar": "أنا شايف نفسي كشخص اهتمامه الفني أو الإبداعي قليل. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "6",
+          "domain_en": "Extraversion",
+          "domain_ar": "الانبساط",
+          "item_en": "I see myself as someone who is outgoing, sociable.",
+          "item_ar": "أنا شايف نفسي كشخص اجتماعي ومنفتح على الناس.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "7",
+          "domain_en": "Agreeableness",
+          "domain_ar": "الموافقة/الوداعة",
+          "item_en": "I see myself as someone who tends to find fault with others. (R)",
+          "item_ar": "أنا شايف نفسي كشخص يميل يلاحظ عيوب الآخرين أو ينتقدهم. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "8",
+          "domain_en": "Conscientiousness",
+          "domain_ar": "يقظة الضمير/الانضباط",
+          "item_en": "I see myself as someone who does a thorough job.",
+          "item_ar": "أنا شايف نفسي كشخص بيشتغل بدقة وبيكمل الشغل بشكل متقن.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "9",
+          "domain_en": "Neuroticism",
+          "domain_ar": "العصابية/الاستثارة الانفعالية",
+          "item_en": "I see myself as someone who gets nervous easily.",
+          "item_ar": "أنا شايف نفسي كشخص بيتوتر بسهولة.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "10",
+          "domain_en": "Openness",
+          "domain_ar": "الانفتاح على الخبرة",
+          "item_en": "I see myself as someone who has an active imagination.",
+          "item_ar": "أنا شايف نفسي كشخص عنده خيال نشط.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "HEXACO_HH",
+      "name_en": "HEXACO – Honesty-Humility factor",
+      "name_ar": "عامل الصدق/التواضع في نموذج HEXACO",
+      "variants": [
+        "Factor-level reference in review"
+      ],
+      "category": "Integrity / Personality",
+      "target_level": "Individual",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review names this factor as a strong predictor of ethical behavior but does not include the item wording.",
+      "purpose_ar": "التقاط الميل إلى الصدق والتواضع وتجنب الاستغلال، بوصفه مؤشرًا أخلاقيًا مهمًا.",
+      "evidence_summary_ar": "المراجعة تعتبر Honesty-Humility من أقوى المتنبئات بالسلوك الأخلاقي.",
+      "item_count_note": "Not provided in uploaded source",
+      "reliability": "Not provided in uploaded source",
+      "cadence_ar": "عند onboarding فقط لو كان له استخدام بحثي أو HR واضح.",
+      "response_scale_ar": "ارجع للنسخة المعتمدة التي ستستخدمها.",
+      "scoring_ar": "حسب النسخة الرسمية المختارة.",
+      "interpretation_ar": "المستويات المنخفضة قد ترتبط بميول أنانية أو انتهازية أعلى، لكن لا يجب استخدامه منفردًا لاتخاذ قرارات عقابية.",
+      "thresholds_ar": "غير متاحة في الملف المرفوع.",
+      "app_use_ar": "اختياري ومتقدم، وليس ضروريًا في MVP.",
+      "leader_visibility_ar": "لا.",
+      "member_visibility_ar": "محدود أو اختياري.",
+      "admin_visibility_ar": "لأغراض بحثية أو تنظيمية واضحة فقط.",
+      "licensing_note_ar": "الملف المرفوع لم يتضمن النص الفعلي للبنود.",
+      "domains": [
+        {
+          "domain_id": "HH",
+          "name_en": "Honesty-Humility",
+          "name_ar": "الصدق/التواضع",
+          "definition_ar": "بعد أخلاقي يعكس النزاهة والابتعاد عن الاستغلال والتعالي والجشع."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "hh_note",
+          "domain_en": "Honesty-Humility",
+          "domain_ar": "الصدق/التواضع",
+          "item_en": "Official items not reproduced in uploaded source.",
+          "item_ar": "البنود الرسمية لهذا العامل غير موجودة في الملف المرفوع.",
+          "reverse_scored": false,
+          "item_status": "not_provided_in_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "WLEIS",
+      "name_en": "Wong and Law Emotional Intelligence Scale",
+      "name_ar": "مقياس وونج ولاو للذكاء العاطفي",
+      "variants": [
+        "16-item WLEIS"
+      ],
+      "category": "Emotional Intelligence / Baseline Profile",
+      "target_level": "Individual",
+      "source_coverage_status": "full_in_uploaded_source",
+      "source_coverage_note": "All 16 items are present in the appendix table.",
+      "purpose_ar": "قياس الذكاء العاطفي عبر فهم الذات، وفهم الآخرين، واستخدام المشاعر في الدافعية، وتنظيم المشاعر.",
+      "evidence_summary_ar": "المراجعة تذكر أنه متحقق عالميًا ومفيد في توقع النجاح القيادي والتعاون داخل الفريق.",
+      "item_count_note": "16 items",
+      "reliability": "Review describes strong reliability",
+      "cadence_ar": "عند onboarding أو كل عدة أشهر.",
+      "response_scale_ar": "1 = لا أوافق بشدة إلى 5 أو 7 = أوافق بشدة بحسب النسخة التي ستعتمدها.",
+      "scoring_ar": "احسب متوسط كل بُعد من 4 بنود، ويمكن كذلك استخراج متوسط عام للذكاء العاطفي.",
+      "interpretation_ar": "ارتفاع فهم الذات يساعد في الوعي المبكر بالمشاعر. ارتفاع فهم الآخرين يدعم التعاطف. ارتفاع استخدام المشاعر يرتبط بالدافعية. ارتفاع تنظيم المشاعر يدعم الثبات تحت الضغط.",
+      "thresholds_ar": "لا توجد cutoffs موحدة في الملف المرفوع؛ الأفضل المقارنة بالنمط الشخصي أو المرجع الداخلي.",
+      "app_use_ar": "قوي جدًا كبروفايل تأسيسي يساعد على تفسير أنماط التفاعل، لكنه ليس أداة رصد يومي.",
+      "leader_visibility_ar": "يفضل عدم كشفه خامًا للقائد.",
+      "member_visibility_ar": "نعم.",
+      "admin_visibility_ar": "مجمّع/اختياري.",
+      "licensing_note_ar": "البنود مأخوذة من الملف المرفوع مع ترجمة تشغيلية.",
+      "domains": [
+        {
+          "domain_id": "SEA",
+          "name_en": "Self-Emotion Appraisal",
+          "name_ar": "فهم الذات الانفعالي",
+          "definition_ar": "القدرة على التعرف على المشاعر الشخصية وفهمها."
+        },
+        {
+          "domain_id": "OEA",
+          "name_en": "Others' Emotion Appraisal",
+          "name_ar": "فهم مشاعر الآخرين",
+          "definition_ar": "القدرة على قراءة مشاعر الآخرين وملاحظتها."
+        },
+        {
+          "domain_id": "UOE",
+          "name_en": "Use of Emotion",
+          "name_ar": "استخدام المشاعر",
+          "definition_ar": "توجيه المشاعر لخدمة الدافعية والإنجاز."
+        },
+        {
+          "domain_id": "ROE",
+          "name_en": "Regulation of Emotion",
+          "name_ar": "تنظيم المشاعر",
+          "definition_ar": "ضبط المشاعر والسيطرة عليها تحت الضغط."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "1",
+          "domain_en": "Self-Emotion Appraisal (SEA)",
+          "domain_ar": "فهم الذات الانفعالي",
+          "item_en": "I have a good sense of why I have certain feelings most of the time.",
+          "item_ar": "أنا غالبًا فاهم ليه بحس بالمشاعر اللي بحس بيها.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "2",
+          "domain_en": "SEA",
+          "domain_ar": "فهم الذات الانفعالي",
+          "item_en": "I have good understanding of my own emotions.",
+          "item_ar": "عندي فهم كويس لمشاعري أنا.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "3",
+          "domain_en": "SEA",
+          "domain_ar": "فهم الذات الانفعالي",
+          "item_en": "I really understand what I feel.",
+          "item_ar": "أنا فعلًا فاهم أنا حاسس بإيه.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "4",
+          "domain_en": "SEA",
+          "domain_ar": "فهم الذات الانفعالي",
+          "item_en": "I always know whether or not I am happy.",
+          "item_ar": "بعرف في العادة إذا كنت سعيد ولا لأ.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "5",
+          "domain_en": "Others' Emotion Appraisal (OEA)",
+          "domain_ar": "فهم مشاعر الآخرين",
+          "item_en": "I always know my friends' emotions from their behavior.",
+          "item_ar": "بعرف مشاعر الناس من تصرفاتهم وسلوكهم.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "6",
+          "domain_en": "OEA",
+          "domain_ar": "فهم مشاعر الآخرين",
+          "item_en": "I am a good observer of others' emotions.",
+          "item_ar": "أنا ملاحظ جيد لمشاعر الآخرين.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "7",
+          "domain_en": "OEA",
+          "domain_ar": "فهم مشاعر الآخرين",
+          "item_en": "I am sensitive to the feelings and emotions of others.",
+          "item_ar": "أنا حساس لمشاعر الناس وإحساسهم.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "8",
+          "domain_en": "OEA",
+          "domain_ar": "فهم مشاعر الآخرين",
+          "item_en": "I have good understanding of the emotions of people around me.",
+          "item_ar": "عندي فهم كويس لمشاعر الناس اللي حواليا.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "9",
+          "domain_en": "Use of Emotion (UOE)",
+          "domain_ar": "استخدام المشاعر",
+          "item_en": "I always set goals for myself and then try my best to achieve them.",
+          "item_ar": "دايمًا بحط أهداف لنفسي وبحاول أوصل لها بأقصى مجهود.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "10",
+          "domain_en": "UOE",
+          "domain_ar": "استخدام المشاعر",
+          "item_en": "I always tell myself I am a competent person.",
+          "item_ar": "دايمًا بقول لنفسي إني شخص قادر وكفء.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "11",
+          "domain_en": "UOE",
+          "domain_ar": "استخدام المشاعر",
+          "item_en": "I am a self-motivating person.",
+          "item_ar": "أنا شخص بعرف أشجع نفسي وأحفزها.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "12",
+          "domain_en": "UOE",
+          "domain_ar": "استخدام المشاعر",
+          "item_en": "I would always encourage myself to try my best.",
+          "item_ar": "دايمًا بشجع نفسي إني أعمل أفضل ما عندي.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "13",
+          "domain_en": "Regulation of Emotion (ROE)",
+          "domain_ar": "تنظيم المشاعر",
+          "item_en": "I am able to control my temper so that I can handle difficulties rationally.",
+          "item_ar": "أقدر أتحكم في عصبيتي علشان أتعامل مع الصعوبات بعقلانية.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "14",
+          "domain_en": "ROE",
+          "domain_ar": "تنظيم المشاعر",
+          "item_en": "I am quite capable of controlling my own emotions.",
+          "item_ar": "أنا قادر بشكل جيد على التحكم في مشاعري.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "15",
+          "domain_en": "ROE",
+          "domain_ar": "تنظيم المشاعر",
+          "item_en": "I can always calm down quickly when I am very angry.",
+          "item_ar": "أقدر أهدى بسرعة لما أبقى متضايق أو غاضب جدًا.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "16",
+          "domain_en": "ROE",
+          "domain_ar": "تنظيم المشاعر",
+          "item_en": "I have good control of my emotions.",
+          "item_ar": "عندي تحكم كويس في مشاعري.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "TCI14",
+      "name_en": "Team Climate Inventory (TCI-14)",
+      "name_ar": "مخزون/مقياس مناخ الفريق TCI-14",
+      "variants": [
+        "14-item short version"
+      ],
+      "category": "Team Climate / Innovation",
+      "target_level": "Team",
+      "source_coverage_status": "full_in_uploaded_source",
+      "source_coverage_note": "All 14 item contents are available in the appendix table.",
+      "purpose_ar": "قياس مناخ الفريق من حيث وضوح الرؤية، الأمان التشاركي، التوجه نحو المهمة، ودعم الابتكار.",
+      "evidence_summary_ar": "المراجعة تعتبره من أهم أدوات قياس مناخ وابتكار الفرق، وتذكر أن الأمان التشاركي تحديدًا أفضل متنبئ بفعالية الفريق والابتكار.",
+      "item_count_note": "14 items",
+      "reliability": "Review says the short version is stable over time",
+      "cadence_ar": "شهري أو ربع سنوي، أو في نقاط التحول المهمة داخل الفرق.",
+      "response_scale_ar": "ليكرت 5 نقاط من غير موافق بشدة إلى موافق بشدة.",
+      "scoring_ar": "احسب متوسط كل بُعد من بنوده، ويمكن كذلك متوسط عام للمناخ. احتفظ ببعد الأمان التشاركي منفصلًا لأنه تنبؤي جدًا.",
+      "interpretation_ar": "انخفاض الرؤية = أهداف غير واضحة. انخفاض الأمان التشاركي = قابلية أعلى للصمت والصراع. انخفاض التوجه نحو المهمة = ضعف المراجعة والتحسين. انخفاض دعم الابتكار = جمود وقلة تجريب.",
+      "thresholds_ar": "لا توجد cutoffs عددية تفصيلية في الملف المرفوع؛ يفضل الاعتماد على المقارنة مع baseline واتجاهات الوقت.",
+      "app_use_ar": "مفيد جدًا في لوحات القائد والإدارة لفهم صورة الفريق الأوسع، وليس فقط التوتر أو الضغط.",
+      "leader_visibility_ar": "نعم بشكل مجمع.",
+      "member_visibility_ar": "يمكن عرض بعض الأبعاد العامة للفريق دون كشف استجابات الآخرين.",
+      "admin_visibility_ar": "نعم.",
+      "licensing_note_ar": "تم الاعتماد على البنود كما وردت في الملف المرفوع مع ترجمة تشغيلية.",
+      "domains": [
+        {
+          "domain_id": "VIS",
+          "name_en": "Vision",
+          "name_ar": "الرؤية",
+          "definition_ar": "وضوح الهدف ومعناه وإمكان تحقيقه."
+        },
+        {
+          "domain_id": "PS",
+          "name_en": "Participative Safety",
+          "name_ar": "الأمان التشاركي",
+          "definition_ar": "الإحساس بالتقبل والمشاركة الحقيقية وتبادل المعلومات."
+        },
+        {
+          "domain_id": "TO",
+          "name_en": "Task Orientation",
+          "name_ar": "التوجه نحو المهمة",
+          "definition_ar": "الانتباه للجودة والمراجعة والبناء على أفكار الآخرين."
+        },
+        {
+          "domain_id": "SI",
+          "name_en": "Support for Innovation",
+          "name_ar": "دعم الابتكار",
+          "definition_ar": "استكشاف طرق جديدة وتخصيص وقت وتعاون لتطوير الأفكار."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "1",
+          "domain_en": "Vision",
+          "domain_ar": "الرؤية",
+          "item_en": "Agreement with objectives",
+          "item_ar": "اتفاق الفريق على الأهداف",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "2",
+          "domain_en": "Vision",
+          "domain_ar": "الرؤية",
+          "item_en": "Team's objectives clearly understood",
+          "item_ar": "أهداف الفريق مفهومة بوضوح",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "3",
+          "domain_en": "Vision",
+          "domain_ar": "الرؤية",
+          "item_en": "Team's objectives achievable",
+          "item_ar": "أهداف الفريق قابلة للتحقيق",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "4",
+          "domain_en": "Vision",
+          "domain_ar": "الرؤية",
+          "item_en": "Worth of the objectives to the organization",
+          "item_ar": "الأهداف لها قيمة بالنسبة للمنظمة",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "5",
+          "domain_en": "Participative Safety",
+          "domain_ar": "الأمان التشاركي",
+          "item_en": "\"We are together\" attitude",
+          "item_ar": "فيه إحساس واضح إننا مع بعض كفريق",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "6",
+          "domain_en": "Participative Safety",
+          "domain_ar": "الأمان التشاركي",
+          "item_en": "People keep each other informed",
+          "item_ar": "الناس بتخلّي بعض على علم بالمعلومات المهمة",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "7",
+          "domain_en": "Participative Safety",
+          "domain_ar": "الأمان التشاركي",
+          "item_en": "People feel understood and accepted",
+          "item_ar": "الناس حاسة إنها مفهومة ومتقبولة",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "8",
+          "domain_en": "Participative Safety",
+          "domain_ar": "الأمان التشاركي",
+          "item_en": "Real attempts to share information",
+          "item_ar": "فيه محاولات حقيقية لمشاركة المعلومات",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "9",
+          "domain_en": "Task Orientation",
+          "domain_ar": "التوجه نحو المهمة",
+          "item_en": "Preparedness to basic questions",
+          "item_ar": "الفريق مستعد يراجع الأسئلة الأساسية أو البدهيات",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "10",
+          "domain_en": "Task Orientation",
+          "domain_ar": "التوجه نحو المهمة",
+          "item_en": "Critical appraisal of weaknesses",
+          "item_ar": "فيه تقييم نقدي لنقاط الضعف",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "11",
+          "domain_en": "Task Orientation",
+          "domain_ar": "التوجه نحو المهمة",
+          "item_en": "Building on each other's ideas",
+          "item_ar": "الفريق بيبني على أفكار بعض",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "12",
+          "domain_en": "Support for Innovation",
+          "domain_ar": "دعم الابتكار",
+          "item_en": "Search for new ways of looking at problems",
+          "item_ar": "بندور على طرق جديدة للنظر للمشكلات",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "13",
+          "domain_en": "Support for Innovation",
+          "domain_ar": "دعم الابتكار",
+          "item_en": "Time taken to develop ideas",
+          "item_ar": "بندي وقت لتطوير الأفكار",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        },
+        {
+          "item_id": "14",
+          "domain_en": "Support for Innovation",
+          "domain_ar": "دعم الابتكار",
+          "item_en": "Cooperation in developing and applying ideas",
+          "item_ar": "فيه تعاون في تطوير الأفكار وتطبيقها",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "COLLECTIVE_EFFICACY",
+      "name_en": "Collective Efficacy Scale",
+      "name_ar": "مقياس الفاعلية/الكفاءة الجمعية",
+      "variants": [
+        "Brief 4-item forms discussed; appendix provides 6 school-context example items"
+      ],
+      "category": "Team Belief / Capability",
+      "target_level": "Team",
+      "source_coverage_status": "partial_context_specific",
+      "source_coverage_note": "The review discusses brief forms and the appendix includes context-specific items from an education adaptation. These should be adapted carefully for workplace teams.",
+      "purpose_ar": "قياس إيمان الفريق بقدرته المشتركة على تحقيق النتائج والتعامل مع الصعوبات.",
+      "evidence_summary_ar": "المراجعة تصفه كمحور تحفيزي قوي يشرح لماذا بعض الفرق تستمر وتقاوم الفشل، كما تذكر أنه قد يتوسط أثر التماسك على التعاون.",
+      "item_count_note": "Brief forms as short as 4 items; 6 context-specific items visible in uploaded source",
+      "reliability": "High internal consistency reported for brief forms in review",
+      "cadence_ar": "شهري أو ربع سنوي.",
+      "response_scale_ar": "في الجدول الملحق: 1 = لا أوافق بشدة إلى 6 = أوافق بشدة.",
+      "scoring_ar": "اعكس البنود السلبية ثم احسب متوسط بعدَي الكفاءة الجمعية وتحليل المهمة/السياق أو متوسطًا عامًا إذا كانت النسخة موحّدة.",
+      "interpretation_ar": "الدرجة المرتفعة تعني أن الفريق لا يرى نفسه فقط متماسكًا، بل يعتقد فعليًا أنه قادر على الإنجاز والتغلب على العقبات.",
+      "thresholds_ar": "لا توجد حدود تشغيلية نهائية في الملف؛ التفسير النسبي مهم جدًا.",
+      "app_use_ar": "مفيد لفهم قدرة الفريق على الصمود، خصوصًا مع هبوط المعنويات أو زيادة الضغط.",
+      "leader_visibility_ar": "نعم بشكل فريق.",
+      "member_visibility_ar": "يمكن عرضه كاتجاه عام.",
+      "admin_visibility_ar": "نعم.",
+      "licensing_note_ar": "البنود الواردة في الملحق سياقها الأصلي تعليمي؛ ينبغي تكييفها لغويًا لسياق العمل قبل الاستخدام الفعلي.",
+      "domains": [
+        {
+          "domain_id": "GC",
+          "name_en": "Group Competence",
+          "name_ar": "الكفاءة الجمعية",
+          "definition_ar": "ثقة الفريق في قدرته المشتركة على التأثير والإنجاز."
+        },
+        {
+          "domain_id": "TA",
+          "name_en": "Task Analysis",
+          "name_ar": "تحليل المهمة/السياق",
+          "definition_ar": "كيف يرى الفريق طبيعة البيئة أو صعوبة المهمة والعوامل الخارجية."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "CE01",
+          "domain_en": "Group Competence",
+          "domain_ar": "الكفاءة الجمعية",
+          "item_en": "Teachers in this school are able to get through to difficult students.",
+          "item_ar": "أفراد هذه المجموعة قادرون يوصلوا ويتعاملوا بفعالية مع الحالات أو الأشخاص الصعبين.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source_but_context_specific"
+        },
+        {
+          "item_id": "CE02",
+          "domain_en": "Group Competence",
+          "domain_ar": "الكفاءة الجمعية",
+          "item_en": "Teachers here are confident they will be able to motivate their students.",
+          "item_ar": "أفراد هذه المجموعة واثقون إنهم يقدروا يحفزوا الطرف اللي بيتعاملوا معاه.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source_but_context_specific"
+        },
+        {
+          "item_id": "CE04",
+          "domain_en": "Group Competence",
+          "domain_ar": "الكفاءة الجمعية",
+          "item_en": "If a child doesn't want to learn, teachers here give up. (R)",
+          "item_ar": "لو الطرف المقابل مش متجاوب، الناس هنا بتستسلم بسرعة. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source_but_context_specific"
+        },
+        {
+          "item_id": "CE06",
+          "domain_en": "Task Analysis",
+          "domain_ar": "تحليل المهمة/السياق",
+          "item_en": "These students come to school ready to learn.",
+          "item_ar": "الناس أو الحالات اللي بنتعامل معها بتدخل السياق جاهزة نسبيًا للتجاوب.",
+          "reverse_scored": false,
+          "item_status": "verbatim_from_uploaded_source_but_context_specific"
+        },
+        {
+          "item_id": "CE08",
+          "domain_en": "Task Analysis",
+          "domain_ar": "تحليل المهمة/السياق",
+          "item_en": "Students here just aren't motivated to learn. (R)",
+          "item_ar": "الطرف أو البيئة هنا مش عندها دافعية كفاية. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source_but_context_specific"
+        },
+        {
+          "item_id": "CE11",
+          "domain_en": "Task Analysis",
+          "domain_ar": "تحليل المهمة/السياق",
+          "item_en": "Drug and alcohol abuse in community make learning difficult. (R)",
+          "item_ar": "ظروف البيئة الخارجية أو المعوقات المحيطة بتخلي النجاح أصعب. (عكسي)",
+          "reverse_scored": true,
+          "item_status": "verbatim_from_uploaded_source_but_context_specific"
+        }
+      ]
+    },
+    {
+      "tool_id": "ROCI_II",
+      "name_en": "Rahim Organizational Conflict Inventory-II (Peers)",
+      "name_ar": "مقياس رحيم لأساليب إدارة الصراع ROCI-II (نسخة الزملاء)",
+      "variants": [
+        "Peer-level conflict style inventory"
+      ],
+      "category": "Conflict Style / Individual Pattern",
+      "target_level": "Individual",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The uploaded source provides style names, strategy descriptions, and item number mapping, but not the full item wording.",
+      "purpose_ar": "تحديد أسلوب الشخص الغالب في التعامل مع الصراع بين الزملاء: دمج/تعاون، مجاملة/إرضاء، هيمنة، تجنب، أو حل وسط.",
+      "evidence_summary_ar": "المراجعة تعتبره مفيدًا لفهم كيف يدير الأشخاص الخلاف، وليس فقط هل يوجد خلاف أم لا.",
+      "item_count_note": "5 subscales; item-number mapping visible in source",
+      "reliability": "Not reported in uploaded excerpt",
+      "cadence_ar": "عند onboarding أو التطوير القيادي، وليس في نبضات سريعة.",
+      "response_scale_ar": "ليكرت 5 نقاط من لا أوافق بشدة إلى أوافق بشدة وفق ما يرد في الملحق.",
+      "scoring_ar": "اجمع البنود الخاصة بكل أسلوب كما هو محدد بأرقام البنود. الأسلوب الأعلى يمثل الميل الغالب، مع إمكان وجود أكثر من نمط مرتفع.",
+      "interpretation_ar": "ارتفاع أسلوب الدمج غالبًا إيجابي في الفرق. ارتفاع الهيمنة أو التجنب قد يرتبط بتفاقم الصراع أو كتمانه بدل حله.",
+      "thresholds_ar": "يفضل التفسير النسبي بين الأبعاد داخل الشخص نفسه، لا عبر cutoff ثابت.",
+      "app_use_ar": "أداة profile متقدمة تساعد في فهم الصراع المزمن أو التدريب القيادي.",
+      "leader_visibility_ar": "لا يعرض خامًا عادة.",
+      "member_visibility_ar": "يمكن عرضه كبروفايل شخصي وتوصيات تطوير.",
+      "admin_visibility_ar": "اختياري.",
+      "licensing_note_ar": "النص الكامل للبنود غير موجود في الملف المرفوع؛ الموجود هو وصف الاستراتيجيات وربطها بأرقام البنود.",
+      "domains": [
+        {
+          "domain_id": "INT",
+          "name_en": "Integrating",
+          "name_ar": "الدمج/التكامل",
+          "definition_ar": "اهتمام عالٍ بالنفس والآخرين مع حل تعاوني للمشكلة.",
+          "item_numbers": "1, 4, 6, 15, 28, 29, 30"
+        },
+        {
+          "domain_id": "OBL",
+          "name_en": "Obliging",
+          "name_ar": "المجاملة/الإرضاء",
+          "definition_ar": "اهتمام منخفض بالنفس وعالٍ بالآخر؛ نزعة للمسايرة.",
+          "item_numbers": "2, 12, 13, 16, 17, 25"
+        },
+        {
+          "domain_id": "DOM",
+          "name_en": "Dominating",
+          "name_ar": "الهيمنة",
+          "definition_ar": "اهتمام عالٍ بالنفس ومنخفض بالآخر؛ أسلوب فرض.",
+          "item_numbers": "8, 10, 11, 14, 18, 24, 27"
+        },
+        {
+          "domain_id": "AVO",
+          "name_en": "Avoiding",
+          "name_ar": "التجنب",
+          "definition_ar": "اهتمام منخفض بالطرفين؛ انسحاب أو تأجيل أو التفاف.",
+          "item_numbers": "3, 7, 22, 23, 32, 33"
+        },
+        {
+          "domain_id": "COM",
+          "name_en": "Compromising",
+          "name_ar": "الحل الوسط",
+          "definition_ar": "حل وسط وتبادل تنازلات.",
+          "item_numbers": "5, 9, 19, 20, 21, 26"
+        }
+      ],
+      "items": [
+        {
+          "item_id": "INT_subscale",
+          "domain_en": "Integrating",
+          "domain_ar": "الدمج/التكامل",
+          "item_en": "Subscale strategy: High concern for self/others; collaborative problem solving.",
+          "item_ar": "وصف البعد: اهتمام مرتفع بالنفس وبالآخرين مع حل تعاوني للمشكلة.",
+          "reverse_scored": false,
+          "item_status": "subscale_definition_from_uploaded_source"
+        },
+        {
+          "item_id": "OBL_subscale",
+          "domain_en": "Obliging",
+          "domain_ar": "المجاملة/الإرضاء",
+          "item_en": "Subscale strategy: Low concern for self, high for others; accommodating.",
+          "item_ar": "وصف البعد: اهتمام منخفض بالنفس وعالٍ بالآخرين؛ مسايرة وتنازل.",
+          "reverse_scored": false,
+          "item_status": "subscale_definition_from_uploaded_source"
+        },
+        {
+          "item_id": "DOM_subscale",
+          "domain_en": "Dominating",
+          "domain_ar": "الهيمنة",
+          "item_en": "Subscale strategy: High concern for self, low for others; forcing behavior.",
+          "item_ar": "وصف البعد: اهتمام عالٍ بالنفس ومنخفض بالآخرين؛ سلوك فرض وسيطرة.",
+          "reverse_scored": false,
+          "item_status": "subscale_definition_from_uploaded_source"
+        },
+        {
+          "item_id": "AVO_subscale",
+          "domain_en": "Avoiding",
+          "domain_ar": "التجنب",
+          "item_en": "Subscale strategy: Low concern for both; withdrawal/side-stepping.",
+          "item_ar": "وصف البعد: اهتمام منخفض بالطرفين؛ انسحاب أو تجنّب.",
+          "reverse_scored": false,
+          "item_status": "subscale_definition_from_uploaded_source"
+        },
+        {
+          "item_id": "COM_subscale",
+          "domain_en": "Compromising",
+          "domain_ar": "الحل الوسط",
+          "item_en": "Subscale strategy: Intermediate concern; give some to get some.",
+          "item_ar": "وصف البعد: اهتمام متوسط؛ تنازل جزئي للحصول على تنازل مقابل.",
+          "reverse_scored": false,
+          "item_status": "subscale_definition_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "OVERT_INTEGRITY",
+      "name_en": "Overt Integrity Tests",
+      "name_ar": "اختبارات النزاهة الصريحة",
+      "variants": [
+        "e.g., Reid Report style according to review"
+      ],
+      "category": "Integrity / Ethics",
+      "target_level": "Individual",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review describes the family of tests and validity coefficient, but does not list item wording.",
+      "purpose_ar": "قياس السلوكيات غير الأخلاقية أو الاستعداد لها بشكل مباشر من خلال أسئلة واضحة الغرض.",
+      "evidence_summary_ar": "المراجعة تذكر أنها تنبأت بالسلوكيات المضادة للإنتاج بدرجة ملحوظة، وأنها تسأل مباشرة عن السرقة أو المخدرات أو السلوك غير الأمين.",
+      "item_count_note": "Varies by instrument",
+      "reliability": "Validity coefficient against CWB reported around 0.39 in review summary",
+      "cadence_ar": "ليس للنبضات النفسية اليومية؛ إذا استخدمت فغالبًا في التوظيف أو فحوص HR أوسع.",
+      "response_scale_ar": "حسب النسخة المختارة.",
+      "scoring_ar": "حسب الأداة الرسمية المختارة.",
+      "interpretation_ar": "تحتاج حوكمة قوية جدًا لأنها قد تُساء إساءة استخدامها، وليست أداة مناسبة للصحة النفسية اليومية داخل التطبيق.",
+      "thresholds_ar": "ارجع للدليل الخاص بالأداة إن اخترت استخدامها.",
+      "app_use_ar": "أقترح عدم إدخالها في مسار العضو العادي في MVP.",
+      "leader_visibility_ar": "لا.",
+      "member_visibility_ar": "بحذر شديد إن استُخدمت.",
+      "admin_visibility_ar": "فقط HR/امتثال وبسياسة معلنة.",
+      "licensing_note_ar": "الملف المرفوع لا يحتوي على بنود فعلية لهذه الاختبارات.",
+      "domains": [
+        {
+          "domain_id": "OVERT",
+          "name_en": "Direct integrity screening",
+          "name_ar": "فحص نزاهة مباشر",
+          "definition_ar": "أسئلة مباشرة عن السلوكيات غير المقبولة والاتجاهات الأخلاقية."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "overt_note",
+          "domain_en": "Direct integrity screening",
+          "domain_ar": "فحص نزاهة مباشر",
+          "item_en": "Review summary only: directly assesses theft/drugs and related integrity concerns.",
+          "item_ar": "المتاح في الملف مجرد توصيف عام: أسئلة مباشرة عن السرقة/المواد/السلوك غير الأمين وما شابه.",
+          "reverse_scored": false,
+          "item_status": "summary_only_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "PERSONALITY_INTEGRITY",
+      "name_en": "Personality-based Integrity Tests",
+      "name_ar": "اختبارات النزاهة المبنية على السمات الشخصية",
+      "variants": [
+        "e.g., Hogan Reliability Scale mentioned in review"
+      ],
+      "category": "Integrity / Ethics",
+      "target_level": "Individual",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review describes the family and features, but not items.",
+      "purpose_ar": "تقدير المخاطر الأخلاقية بصورة غير مباشرة عبر سمات مثل الاندفاع أو الحساسية للسلطة أو اللامبالاة الاجتماعية.",
+      "evidence_summary_ar": "المراجعة تذكر أنها ترتبط بالسلوكيات المضادة للإنتاج لكن بدرجة أقل من الاختبارات الصريحة.",
+      "item_count_note": "Varies by instrument",
+      "reliability": "Validity coefficient against CWB reported around 0.29 in review summary",
+      "cadence_ar": "نادر الاستخدام في منتج مراقبة فرق يومي.",
+      "response_scale_ar": "حسب الأداة الرسمية.",
+      "scoring_ar": "حسب الأداة الرسمية.",
+      "interpretation_ar": "يمكن أن تضيف فهمًا للسلوكيات الخطرة، لكنها أكثر ملاءمة لسياقات التوظيف أو المخاطر المؤسسية من كونها أداة تجربة عضو يومية.",
+      "thresholds_ar": "غير متاحة في الملف المرفوع.",
+      "app_use_ar": "اختياري جدًا وبعيد عن MVP.",
+      "leader_visibility_ar": "لا.",
+      "member_visibility_ar": "بحذر شديد.",
+      "admin_visibility_ar": "فقط أدوار مختصة.",
+      "licensing_note_ar": "لا توجد بنود فعلية في الملف المرفوع.",
+      "domains": [
+        {
+          "domain_id": "PINT",
+          "name_en": "Personality-based integrity",
+          "name_ar": "نزاهة قائمة على السمات",
+          "definition_ar": "استدلال النزاهة من سمات مثل الاندفاع، العداء للسلطة، أو اللامبالاة."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "pint_note",
+          "domain_en": "Personality-based integrity",
+          "domain_ar": "نزاهة قائمة على السمات",
+          "item_en": "Review summary only: measures hostility to authority and social insensitivity.",
+          "item_ar": "المتاح في الملف: تقيس الميل للعداء للسلطة أو عدم الحساسية الاجتماعية وما شابه.",
+          "reverse_scored": false,
+          "item_status": "summary_only_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "OIS",
+      "name_en": "Occupational Integrity Scale",
+      "name_ar": "مقياس النزاهة المهنية",
+      "variants": [
+        "Open-access 3-factor instrument according to review"
+      ],
+      "category": "Integrity / Ethics",
+      "target_level": "Individual",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review names it as open-access and predictive, but does not reproduce the item bank.",
+      "purpose_ar": "قياس النزاهة المهنية والسلوك الأخلاقي في سياق العمل.",
+      "evidence_summary_ar": "المراجعة تذكر أنه مفتوح الوصول نسبيًا، ويتكرر بشكل جيد عبر موظفين في شركات، ويرتبط بالسلوكيات المضادة للإنتاج والسلوكيات الإيجابية التنظيمية.",
+      "item_count_note": "3-factor instrument; exact item count not provided in uploaded source",
+      "reliability": "Not numerically stated in uploaded summary",
+      "cadence_ar": "إذا استُخدم فغالبًا في baseline أو HR checkpoints، وليس أسبوعيًا.",
+      "response_scale_ar": "حسب النسخة الأصلية.",
+      "scoring_ar": "حسب الأبعاد الثلاثة الرسمية للأداة.",
+      "interpretation_ar": "قد يكون أنسب من بعض اختبارات النزاهة المغلقة، لكنه ما زال يحتاج حوكمة شديدة وصياغة استخدام عادلة.",
+      "thresholds_ar": "غير متاحة في الملف المرفوع.",
+      "app_use_ar": "اختياري ومتقدم جدًا.",
+      "leader_visibility_ar": "لا.",
+      "member_visibility_ar": "بحذر.",
+      "admin_visibility_ar": "فقط لأغراض تنظيمية واضحة.",
+      "licensing_note_ar": "النص الكامل للبنود غير موجود في الملف المرفوع.",
+      "domains": [
+        {
+          "domain_id": "OIS",
+          "name_en": "Occupational Integrity",
+          "name_ar": "النزاهة المهنية",
+          "definition_ar": "الالتزام الأخلاقي والبعد عن السلوكيات المضادة للإنتاج في بيئة العمل."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "ois_note",
+          "domain_en": "Occupational Integrity",
+          "domain_ar": "النزاهة المهنية",
+          "item_en": "Review summary only: open-access, 3-factor instrument replicating well across employees.",
+          "item_ar": "المتاح في الملف وصف عام فقط: أداة مفتوحة الوصول نسبيًا بثلاثة عوامل وتعمل جيدًا عبر عينات موظفين.",
+          "reverse_scored": false,
+          "item_status": "summary_only_from_uploaded_source"
+        }
+      ]
+    },
+    {
+      "tool_id": "DAS_DYADIC_ADJUSTMENT",
+      "name_en": "Dyadic Adjustment Scale",
+      "name_ar": "مقياس التوافق الثنائي بين شخصين",
+      "variants": [
+        "32-item original measure adapted conceptually for work dyads"
+      ],
+      "category": "Dyadic Relationship Assessment",
+      "target_level": "Dyad",
+      "source_coverage_status": "partial",
+      "source_coverage_note": "The review mentions the 32-item framework and gives example items, but does not reproduce the full questionnaire.",
+      "purpose_ar": "تحليل جودة العلاقة بين شخصين بعينهم، وقياس التوافق أو التوتر أو الرضا أو التماسك داخل علاقة ثنائية شديدة التأثير على الشغل.",
+      "evidence_summary_ar": "المراجعة تقترح الاستفادة منه أو من منطقه التحليلي في الحالات اللي فيها احتكاك مركز بين شخصين داخل الفريق.",
+      "item_count_note": "32 items in original relationship-focused scale",
+      "reliability": "Not stated in uploaded source",
+      "cadence_ar": "عند الاشتباه في صراع ثنائي واضح، وليس بشكل روتيني لكل الناس.",
+      "response_scale_ar": "يختلف حسب النسخة؛ استخدم النسخة المعتمدة عند التطبيق الفعلي.",
+      "scoring_ar": "في التطبيق المؤسسي يفضل عدم استخدام النص الأصلي مباشرة إلا لو لديك حق الاستخدام والمواءمة المناسبة. يمكن استخدامه كمرجع لبناء dyadic deep-dive workflow.",
+      "interpretation_ar": "مفيد للتشخيص العميق عندما تكون المشكلة بين شخصين بعينهما أكثر من كونها ثقافة فريق عامة.",
+      "thresholds_ar": "غير متاحة في الملف المرفوع.",
+      "app_use_ar": "يفضل كمسار متقدم فقط، بعد ظهور edges متكررة في شبكة الصراع بين نفس الشخصين.",
+      "leader_visibility_ar": "بحذر شديد جدًا؛ يفضل ألا يرى القائد ردودًا خامًا متبادلة من الطرفين.",
+      "member_visibility_ar": "بحسب السياسة وبوجود موافقة صريحة.",
+      "admin_visibility_ar": "فقط للمتخصصين أو المحققين الداخليين عند الحاجة.",
+      "licensing_note_ar": "النص الكامل غير موجود في الملف المرفوع. الأمثلة المذكورة في التقرير كانت لأغراض تفسيرية وليس كنص عمل كامل.",
+      "domains": [
+        {
+          "domain_id": "CONS",
+          "name_en": "Consensus",
+          "name_ar": "التوافق",
+          "definition_ar": "مدى الاتفاق بين الطرفين في المسائل المهمة."
+        },
+        {
+          "domain_id": "SAT",
+          "name_en": "Satisfaction",
+          "name_ar": "الرضا",
+          "definition_ar": "مدى رضا كل طرف عن العلاقة."
+        },
+        {
+          "domain_id": "COH",
+          "name_en": "Cohesion",
+          "name_ar": "الترابط",
+          "definition_ar": "قرب الطرفين وتعاونهما."
+        },
+        {
+          "domain_id": "AFF",
+          "name_en": "Affectional Expression",
+          "name_ar": "التعبير الوجداني",
+          "definition_ar": "أسلوب التعبير عن المشاعر والتقارب؛ يحتاج مواءمة واضحة إذا استخدم في سياق العمل."
+        }
+      ],
+      "items": [
+        {
+          "item_id": "example_1",
+          "domain_en": "Satisfaction/Conflict",
+          "domain_ar": "الرضا/الصراع",
+          "item_en": "Example mentioned in review: How often do you and your partner quarrel?",
+          "item_ar": "مثال ورد في المراجعة: قد إيه أنت والطرف التاني بتدخلوا في مشاحنات أو خلافات؟",
+          "reverse_scored": false,
+          "item_status": "example_only_from_uploaded_source"
+        },
+        {
+          "item_id": "example_2",
+          "domain_en": "Relationship Strain",
+          "domain_ar": "توتر العلاقة",
+          "item_en": "Example mentioned in review: How often do you get on each other's nerves?",
+          "item_ar": "مثال ورد في المراجعة: قد إيه كل واحد فيكم بيستفز التاني أو يضايقه؟",
+          "reverse_scored": false,
+          "item_status": "example_only_from_uploaded_source"
+        }
+      ]
+    }
+  ]
+}
