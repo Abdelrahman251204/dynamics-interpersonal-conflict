@@ -1,0 +1,1 @@
+import{a as e,n as t,t as n}from"./jsx-runtime-Bg_NI1en.js";e(t(),1);var r=n();function i(){return(0,r.jsxs)(`div`,{className:`card`,children:[(0,r.jsx)(`h1`,{style:{fontSize:`1.5rem`,fontWeight:600},children:`MemberSurveyHistory`}),(0,r.jsx)(`p`,{style:{color:`var(--text-muted)`,marginTop:`1rem`},children:`This module is currently under construction.`})]})}export{i as default};
