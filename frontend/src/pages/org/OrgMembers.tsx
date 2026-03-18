@@ -7,6 +7,9 @@ export default function OrgMembers() {
   const { userData } = useAuth();
   const [members, setMembers] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const [isInviting, setIsInviting] = useState(false);
+  const [inviteEmail, setInviteEmail] = useState('');
+  const [orgId, setOrgId] = useState<string | null>(null);
 
   useEffect(() => {
     loadMembers();
@@ -27,6 +30,7 @@ export default function OrgMembers() {
         setLoading(false);
         return;
       }
+      setOrgId(membership.org_id);
 
       const { data } = await supabase
         .from('organization_memberships')
@@ -38,6 +42,46 @@ export default function OrgMembers() {
       console.error(err);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const handleInvite = async () => {
+    if (!inviteEmail || !orgId) return;
+    try {
+      // Find user by email
+      const { data: userRecord } = await supabase
+        .from('users')
+        .select('id')
+        .eq('email', inviteEmail)
+        .single();
+        
+      if (!userRecord) {
+        alert("User not found. They must register an account first.");
+        return;
+      }
+      
+      // Check if already in org
+      const { data: existing } = await supabase
+        .from('organization_memberships')
+        .select('id')
+        .eq('user_id', userRecord.id)
+        .eq('org_id', orgId);
+        
+      if (existing && existing.length > 0) {
+        alert("User is already in this organization.");
+      } else {
+        // Invite/Assign
+        await supabase
+          .from('organization_memberships')
+          .insert([{ user_id: userRecord.id, org_id: orgId }]);
+        alert("User successfully added to organization.");
+        setIsInviting(false);
+        setInviteEmail('');
+        loadMembers();
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Error adding user to organization.");
     }
   };
 
@@ -55,6 +99,23 @@ export default function OrgMembers() {
           {members.length} Enrolled
         </div>
       </div>
+      
+      {isInviting && (
+        <div style={{ marginBottom: '1.5rem', padding: '1.5rem', background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: '8px', display: 'flex', gap: '1rem', alignItems: 'flex-end' }}>
+          <div style={{ flex: 1 }}>
+            <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 500, fontSize: '0.875rem' }}>User Email Address</label>
+            <input 
+              type="email" 
+              className="input" 
+              placeholder="e.g. employee@company.com" 
+              value={inviteEmail}
+              onChange={e => setInviteEmail(e.target.value)}
+            />
+          </div>
+          <button className="btn btn-primary" onClick={handleInvite}>Add User</button>
+          <button className="btn btn-secondary" onClick={() => setIsInviting(false)}>Cancel</button>
+        </div>
+      )}
       
       <div style={{ overflowX: 'auto' }}>
         <table style={{ width: '100%', textAlign: 'left', borderCollapse: 'collapse' }}>

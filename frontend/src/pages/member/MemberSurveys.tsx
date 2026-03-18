@@ -65,9 +65,9 @@ export default function MemberSurveys() {
                  <p style={{ color: 'var(--text-muted)', fontSize: '0.875rem', marginBottom: '1.5rem' }}>
                    Due by: {new Date(a.due_date).toLocaleDateString()}
                  </p>
-                 <button className="btn btn-primary" style={{ width: '100%' }}>
+                 <Link to={`/survey/\${a.id}`} className="btn btn-primary" style={{ width: '100%', textAlign: 'center', display: 'block', textDecoration: 'none' }}>
                    {a.status === 'in_progress' ? 'Resume Assessment' : 'Start Assessment'}
-                 </button>
+                 </Link>
                </div>
             ))}
           </div>
